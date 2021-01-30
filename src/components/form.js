@@ -2,7 +2,7 @@ import React from "react";
 
 function Form() {
     return (
-        <form name="contact" method="post" netlify-honeypot="bot-field" data-netlify="true">
+        <form name="contact" action="https://formspree.io/f/xpzonavl" method="POST">
             <div>
                 <div className="mx-auto pb-16 lg:pb-32 f-f-p container lg:mt-24 mt-12 px-4 xl:px-0">
                     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">

@@ -7,9 +7,9 @@ function Blog() {
                     <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Ultimi post</h1>
                     <div className="mt-12 lg:mt-24">
                         <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-2 gap-8">
-                            <div>
+                            <div className="rounded-2xl shadow-lg hover:shadow-xl">
                                 <img className="w-full" src="https://cdn.tuk.dev/assets/components/111220/Blg-6/blog(1).png" alt="computer" />
-                                <div className="py-4 px-8 w-full flex justify-between bg-indigo-700">
+                                <div className="py-4 px-8 w-full flex justify-between bg-yellow-300">
                                     <p className="text-sm text-white font-semibold tracking-wide">Autore</p>
                                     <p className="text-sm text-white font-semibold tracking-wide">Data</p>
                                 </div>
