@@ -12,9 +12,15 @@ export default function Post({data}) {
     <div>
       <Header></Header>
       <p>Post{data.site.siteMetadata.title}</p>
-      <div className="grid sm:grid-cols-1 md:grid-cols-2 bg-gray-700 rounded-2xl">
-        <SkillImg className="w-full h-full p-8"></SkillImg>
-        <Skills></Skills>
+      <div className=" bg-gray-700 rounded-2xl">
+        <h1 className="xl:text-5xl pt-10 text-3xl text-gray-200 text-center font-bold mb-4">Skills e Strumenti</h1>
+        <p className="text-xl text-gray-200 text-center xl:w-3/5 mx-auto w-11/12">
+          [testo]
+        </p>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 pt-2">
+          <SkillImg className="w-full h-full p-8"></SkillImg>
+          <Skills></Skills>
+        </div>
       </div>
       
       <Footer></Footer>
