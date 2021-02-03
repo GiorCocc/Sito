@@ -13,7 +13,7 @@ export default function Post({data}) {
       <Header></Header>
       <p>Post{data.site.siteMetadata.title}</p>
       <div className="grid sm:grid-cols-1 md:grid-cols-2 bg-gray-700 rounded-2xl">
-        <SkillImg className="w-full p-8"></SkillImg>
+        <SkillImg className="w-full h-full p-8"></SkillImg>
         <Skills></Skills>
       </div>
       

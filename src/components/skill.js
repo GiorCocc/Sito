@@ -11,8 +11,10 @@ export default function Skills(){
                     </svg>
                     <p className="text-xl ml-5 text-gray-200">HTML</p>
                 </div>
-                <div className="bg-html h-10 w-9/12 rounded-md justify-items-center">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Buono</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-html h-10 w-9/12 rounded-md justify-items-center">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Buono</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -23,8 +25,10 @@ export default function Skills(){
                     </svg>
                     <p className="text-xl ml-5 text-gray-200">CSS</p>
                 </div>
-                <div className="bg-css h-10 w-8/12 rounded-md justify-items-center">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Buono</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-css h-10 w-8/12 rounded-md justify-items-center">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Buono</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -35,8 +39,10 @@ export default function Skills(){
                     </svg>
                     <p className="text-xl ml-5 text-gray-200">Javascript</p>
                 </div>
-                <div className="bg-javascript h-10 w-5/12 rounded-md justify-items-center animate-pulse">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Still-learning</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-javascript h-10 w-5/12 rounded-md justify-items-center animate-pulse">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Still-learning</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -47,8 +53,10 @@ export default function Skills(){
                     </svg>
                     <p className="text-xl ml-5 text-gray-200">C/C++</p>
                 </div>
-                <div className="bg-cpp h-10 w-10/12 rounded-md justify-items-center">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Alto livello</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-cpp h-10 w-10/12 rounded-md justify-items-center">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Alto livello</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -59,8 +67,10 @@ export default function Skills(){
                 </svg>
                     <p className="text-xl ml-5 text-gray-200">Python</p>
                 </div>
-                <div className="bg-python h-10 w-12/12 rounded-md justify-items-center">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Alto livello</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-python h-10 w-12/12 rounded-md justify-items-center">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Alto livello</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -71,8 +81,10 @@ export default function Skills(){
                     </svg>
                     <p className="text-xl ml-5 text-gray-200">Latex</p>
                 </div>
-                <div className="bg-latex h-10 w-7/12 rounded-md justify-items-center">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Ottimo</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-latex h-10 w-7/12 rounded-md justify-items-center">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Ottimo</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -83,8 +95,10 @@ export default function Skills(){
                 </svg>
                     <p className="text-xl ml-5 text-gray-200">Flutter</p>
                 </div>
-                <div className="bg-flutter h-10 w-6/12 rounded-md justify-items-center animate-pulse">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Still-learning</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-flutter h-10 w-6/12 rounded-md justify-items-center animate-pulse">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Still-learning</p>                
+                    </div>
                 </div>
             </div>
             <div className="pb-5">
@@ -95,8 +109,10 @@ export default function Skills(){
                 </svg>
                     <p className="text-xl ml-5 text-gray-200">Kotlin</p>
                 </div>
-                <div className="bg-kotlin h-10 w-5/12 rounded-md justify-items-center animate-pulse">
-                    <p className="h-full m-5 pt-2 text-right font-semibold">Still-learning</p>                
+                <div className="bg-gray-400 rounded-md">
+                    <div className="bg-kotlin h-10 w-5/12 rounded-md justify-items-center animate-pulse">
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Still-learning</p>                
+                    </div>
                 </div>
             </div>
             
