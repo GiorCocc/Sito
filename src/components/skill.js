@@ -4,8 +4,8 @@ export default function Skills(){
     return(
         <div className="p-5 grid gap-4 sm:grid-cols-1 md:grid-cols-2">
             <div className="pb-5">
-                <div className="flex flex-row">
-                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#E34F26" className="w-9">
+                <div className="flex flex-row h-full">
+                    <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#E34F26" className="w-9 h-full">
                         <title>HTML5 icon</title>
                         <path d="M1.5 0h21l-1.91 21.563L11.977 24l-8.564-2.438L1.5 0zm7.031 9.75l-.232-2.718 10.059.003.23-2.622L5.412 4.41l.698 8.01h9.126l-.326 3.426-2.91.804-2.955-.81-.188-2.11H6.248l.33 4.171L12 19.351l5.379-1.443.744-8.157H8.531z"/>
                     </svg>
@@ -89,14 +89,14 @@ export default function Skills(){
             </div>
             <div className="pb-5">
                 <div className="flex flex-row">
-                <svg role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#02569B" className="w-9">
-                    <title>Flutter icon</title>
-                    <path d="M14.314 0L2.3 12 6 15.7 21.684.013h-7.357zm.014 11.072L7.857 17.53l6.47 6.47H21.7l-6.46-6.468 6.46-6.46h-7.37z"/>
+                <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#0175C2" className="w-9">
+                    <title>Dart icon</title>
+                    <path d="M4.105 4.105S9.158 1.58 11.684.316a3.079 3.079 0 0 1 1.481-.315c.766.047 1.677.788 1.677.788L24 9.948v9.789h-4.263V24H9.789l-9-9C.303 14.5 0 13.795 0 13.105c0-.319.18-.818.316-1.105l3.789-7.895zm.679.679v11.787c.002.543.021 1.024.498 1.508L10.204 23h8.533v-4.263L4.784 4.784zm12.055-.678c-.899-.896-1.809-1.78-2.74-2.643-.302-.267-.567-.468-1.07-.462-.37.014-.87.195-.87.195L6.341 4.105l10.498.001z"/>
                 </svg>
-                    <p className="text-xl ml-5 text-gray-200">Flutter</p>
+                    <p className="text-xl ml-5 text-gray-200">Dart</p>
                 </div>
                 <div className="bg-gray-400 rounded-md">
-                    <div className="bg-flutter h-10 w-6/12 rounded-md justify-items-center animate-pulse">
+                    <div className="bg-dart h-10 w-6/12 rounded-md justify-items-center animate-pulse">
                         <p className="h-full w-max m-5 pt-2 text-right font-semibold">Still-learning</p>                
                     </div>
                 </div>

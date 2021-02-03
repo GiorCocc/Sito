@@ -29,7 +29,7 @@ module.exports = {
       javascript: '#F7DF1E',
       cpp: '#00599C',
       kotlin: '#0095D5',
-      flutter: '#02569B',
+      dart: '#0175C2',
       latex: '#008080',
 
       facebook:'#1877F2',
