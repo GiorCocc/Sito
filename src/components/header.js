@@ -24,7 +24,7 @@ export default function Header(){
                             <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="h-10 w-auto"
                                 viewBox="0 0 533 469" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,469.000000) scale(0.100000,-0.100000)"
-                                fill="#000000" stroke="none">
+                                fill="currentcolor" stroke="none">
                                 <path d="M3972 4520 c-43 -10 -106 -55 -143 -101 -121 -153 -50 -378 142 -446
                                 l50 -18 -3 -117 -3 -118 -440 -1 c-242 -1 -445 -1 -451 0 -6 0 -14 17 -17 37
                                 -6 36 -48 107 -77 131 -83 68 -145 86 -251 71 -71 -9 -141 -55 -183 -119 -35

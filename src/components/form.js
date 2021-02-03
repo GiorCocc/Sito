@@ -4,7 +4,7 @@ function Form() {
     return (
         <form name="contact" action="https://formspree.io/f/xpzonavl" method="POST">
             <div>
-                <div className="mx-auto pb-16 lg:pb-32 f-f-p container lg:mt-24 mt-12 px-4 xl:px-0">
+                <div className="mx-auto pb-6 lg:pb-32 f-f-p container lg:mt-24 mt-12 px-4 xl:px-0">
                     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                         <div className="flex flex-col my-8 lg:my-0 xl:my-0">
                             <label htmlFor="name" className="text-gray-800 text-sm font-bold leading-tight tracking-normal mb-2 ">
@@ -30,7 +30,7 @@ function Form() {
                             <label htmlFor="address" className="text-gray-800 text-sm font-bold leading-tight tracking-normal mb-2">
                                 <span className="tracking-wide text-gray-900 text-2xl font-semibold leading-10">Indirizzo</span>
                             </label>
-                            <input name="address" type="address" className="focus:outline-none focus:border text-gray-700 font-normal w-full h-15 flex items-center p-2 mt-4 text-lg  border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300" placeholder="Inserisci il tuo indirizzo (facoltativo)" />
+                            <input name="address" type="address" className="focus:outline-none focus:border text-gray-700 font-normal w-full h-15 flex items-center p-2 mt-4 text-lg  border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300" placeholder="Inserisci il tuo indirizzo" />
                         </div>
                     </div>
                     <div className="mt-8">
@@ -42,7 +42,10 @@ function Form() {
                         </div>
                     </div>
                     <div className="grid sm:grid-cols-1">
-                        <button type="submit" className="bg-black text-white hover:bg-yellow-300 hover:text-black p-3 m-6 rounded-2xl md:place-self-end md:text-2xl">Invia</button>
+                        <p className="text-xs mt-5 text-justify">
+                            Premendo il pulsante Invia accetti di condividere i tuoi dati inseriti nel form con il sottoscritto, che assicura un trattamento nel pieno rispetto della privacy e della discrezione. Il form è fornito da <a href="https://formspree.io" target="_blank"> FormSpree.io</a>
+                        </p>
+                        <button type="submit" target="_blank" className="bg-black text-white hover:bg-yellow-300 hover:text-black p-3 m-6 rounded-2xl md:place-self-end md:text-2xl">Invia</button>
                     </div>
                 </div>
             </div>

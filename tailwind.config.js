@@ -17,6 +17,28 @@ module.exports = {
       transparent: 'transparent',
       current: 'currentColor',
 
+      giallo:'#FFC85B',
+      giallo_chiaro:'#ffd98e',
+      grigio_moltoscuro: '#111111',
+      crema:'#ffeac1',
+      grigio_scuro:'#2a2a2a',
+
+      html: '#E34F26',
+      css: '#1572B6',
+      python: '#3776AB',
+      javascript: '#F7DF1E',
+      cpp: '#00599C',
+      kotlin: '#0095D5',
+      flutter: '#02569B',
+      latex: '#008080',
+
+      facebook:'#1877F2',
+      instagram:'#E4405F',
+      twitter: '#1DA1F2',
+      github: '#181717',
+      linkedin: '#0077B5',
+      mail: '#EA4335',
+
       black: colors.black,
       white: colors.white,
       gray: colors.coolGray,
@@ -27,6 +49,7 @@ module.exports = {
       indigo: colors.indigo,
       purple: colors.violet,
       pink: colors.pink,
+      orange: colors.orange,
     },
     spacing: {
       px: '1px',
