@@ -14,7 +14,7 @@ import {graphql} from "gatsby"
 export default function Home({data}) {
   return (
     <div>
-      <title>{data.site.siteMetadata.author}</title>
+      <title>Giorgio Coccapani</title>
       <Header></Header>
       <Hero></Hero>
       <SummaryPost></SummaryPost> {/* Sistemare i testi */}
@@ -51,13 +51,3 @@ export default function Home({data}) {
   )
 }
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-  }
-`

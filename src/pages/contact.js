@@ -10,7 +10,7 @@ import {graphql} from "gatsby"
 export default function Contact({data}) {
   return (
     <div>
-      <title>{data.site.siteMetadata.author} ~ Contatti</title>
+      <title>Giorgio Coccapani ~ Contatti</title>
       <Header></Header>
       <Info></Info>
       <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:pl-2 xl:pl-6 p-5">
@@ -26,13 +26,3 @@ export default function Contact({data}) {
   )
 }
 
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
-        author
-      }
-    }
-  }
-`
