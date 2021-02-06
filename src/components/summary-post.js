@@ -14,7 +14,7 @@ function SummaryPost() {
                         <img src="https://cdn.tuk.dev/assets/photo-1573451444472-7b0b275ab824.jfif" alt className="h-full w-full object-cover overflow-hidden rounded" />
                     </div>
                     <div className="p-6 shadow-lg w-11/12 mx-auto -mt-20 bg-white rounded z-20 relative">
-                        <p className="uppercase text-sm text-indigo-700 text-center pb-3">Titolo</p>
+                        <p className="uppercase text-sm text-giallo text-center pb-3">Titolo</p>
                         <p className="text-lg text-gray-800 text-center pb-3">Testo paragrafo</p>
                         <p className="text-sm text-gray-800 text-center">
                             Data, di Autore
@@ -26,7 +26,7 @@ function SummaryPost() {
                         <img src="https://cdn.tuk.dev/assets/photo-1544476915-ed1370594142.jfif" alt className="h-full w-full object-cover overflow-hidden rounded" />
                     </div>
                     <div className="p-6 shadow-lg w-11/12 mx-auto -mt-20 bg-white rounded z-20 relative">
-                        <p className="uppercase text-sm text-indigo-700 text-center pb-3">Titolo</p>
+                        <p className="uppercase text-sm text-giallo text-center pb-3">Titolo</p>
                         <p className="text-lg text-gray-800 text-center pb-3">Paragrafo</p>
                         <p className="text-sm text-gray-800 text-center">
                             Data, di Autore
@@ -38,7 +38,7 @@ function SummaryPost() {
                         <img src="https://cdn.tuk.dev/assets/photo-1462331940025-496dfbfc7564.jfif" alt className="h-full w-full object-cover overflow-hidden rounded" />
                     </div>
                     <div className="p-6 shadow-lg w-11/12 mx-auto -mt-20 bg-white rounded z-20 relative">
-                        <p className="uppercase text-sm text-indigo-700 text-center pb-3">Titolo</p>
+                        <p className="uppercase text-sm text-giallo text-center pb-3">Titolo</p>
                         <p className="text-lg text-gray-800 text-center pb-3">Paragrafo</p>
                         <p className="text-sm text-gray-800 text-center">
                             Data, di Autore

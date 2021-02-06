@@ -35,6 +35,15 @@ module.exports = {
         path: `${__dirname}/src/`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        path: `${__dirname}/src/img`,
+      },
+    },
+    `gatsby-image`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sharp`,
     `gatsby-transformer-remark`,
     'gatsby-plugin-offline',
     'gatsby-plugin-postcss'

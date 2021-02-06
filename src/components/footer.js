@@ -117,9 +117,9 @@ export default function Footer(){
                             </svg>
                     </a>
                     <div className="flex flex-wrap items-center justify-center mx-auto text-base text-center p-5">
-                        <a href="/contact/" class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-yellow-300 p-5 rounded-md">
+                        <a href="/contact/" class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-giallo p-5 rounded-md">
                             Contatti</a>
-                        <a href="/about/" class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-yellow-300 p-5 rounded-md">
+                        <a href="/about/" class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-giallo p-5 rounded-md">
                             About</a>
                         
                     </div>

@@ -17,10 +17,8 @@ export default function Home({data}) {
       <title>{data.site.siteMetadata.author}</title>
       <Header></Header>
       <Hero></Hero>
-      {/* Creare un div con dentro i programmi che so usare e linguaggi che conosco */}
       <SummaryPost></SummaryPost> {/* Sistemare i testi */}
       {/* Creare un blocco per i progetti svolti (coming soon..) */}
-      {/* Creare un blocco per i contatti */}
       <div className=" bg-gray-700 rounded-2xl p-8 mb-8">
         <h1 className="xl:text-5xl pt-10 text-3xl text-gray-200 text-center font-bold mb-4">Skills e Strumenti</h1>
         <p className="text-xl text-gray-200 text-center xl:w-3/5 mx-auto w-11/12">
@@ -32,7 +30,7 @@ export default function Home({data}) {
         </div>
         <Tools></Tools>
       </div>
-      <div className="place-items-auto bg-yellow-300 rounded-3xl">
+      <div className="place-items-auto bg-giallo rounded-3xl">
         <h1 className="xl:text-5xl pt-10 text-3xl text-gray-800 text-center font-bold mb-4">Contatti</h1>
         <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">
           Se vuoi lasciare un messaggio, anche anonimo, compila questo form in modo che tu possa essere contattato da me in qualunque momento (tutti i campi, ad eccezione del messaggio sono anonimi). E se vuoi, seguimi anche sui miei canali social

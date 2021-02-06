@@ -6,7 +6,7 @@ import {graphql} from "gatsby"
 export default function Projects({data}) {
   return (
     <div>
-      <title>{data.site.siteMetadata.author} ~ About</title>
+      <title>{data.site.siteMetadata.author} ~ Progetti</title>
       <Header></Header>
       <p>Coming Soon</p>
       {/* Mettere in evidenza i progetti che sto svolgendo */}

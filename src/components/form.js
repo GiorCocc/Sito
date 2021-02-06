@@ -45,7 +45,7 @@ function Form() {
                         <p className="text-xs mt-5 text-justify">
                             Premendo il pulsante Invia accetti di condividere i tuoi dati inseriti nel form con il sottoscritto, che assicura un trattamento nel pieno rispetto della privacy e della discrezione. Il form è fornito da <a href="https://formspree.io" target="_blank"> FormSpree.io</a>
                         </p>
-                        <button type="submit" target="_blank" className="bg-black text-white hover:bg-yellow-300 hover:text-black p-3 m-6 rounded-2xl md:place-self-end md:text-2xl">Invia</button>
+                        <button type="submit" target="_blank" className="bg-black text-white hover:bg-giallo hover:text-black p-3 m-6 rounded-2xl md:place-self-end md:text-2xl">Invia</button>
                     </div>
                 </div>
             </div>

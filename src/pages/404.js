@@ -16,7 +16,7 @@ export default function Error(){
                 <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">
                     Se hai riscontrato qualche prblema, per favore, contattami con il form dedicato
                 </p>
-                <div className="bg-gray-700 hover:bg-giallo text-2xl m-5 p-5 rounded-xl animate-bounce">
+                <div className="bg-gray-700 hover:bg-giallo text-2xl m-5 p-5 rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a href="/" className="h-full w-full">Torna al sito</a>
                 </div>
                 <FullLogo className="w-2/3 h-full "></FullLogo>

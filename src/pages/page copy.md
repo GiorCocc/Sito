@@ -1,8 +1,7 @@
 ---
-title: "Sweet Pandas Eating Sweets"
+title: "Altro titolo"
 date: "2017-08-10"
 author: "Giorgio Coccapani"
-image: ../img/me.jpg
 ---
 
 Pandas are really sweet.
