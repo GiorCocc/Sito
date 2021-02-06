@@ -4,11 +4,13 @@ import Footer from "../components/footer"
 import Form from "../components/form"
 import Info from "../components/info"
 import ContactImg from "../img/undraw_contact_us_15o2.svg"
+import {graphql} from "gatsby"
 
 
-export default function Contact() {
+export default function Contact({data}) {
   return (
     <div>
+      <title>{data.site.siteMetadata.author} ~ Contatti</title>
       <Header></Header>
       <Info></Info>
       <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:pl-2 xl:pl-6 p-5">
@@ -19,8 +21,18 @@ export default function Contact() {
           <Form></Form>
         </div>
       </div>
-      
       <Footer></Footer>
     </div>
   )
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`

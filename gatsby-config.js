@@ -12,8 +12,8 @@ module.exports = {
   },
   /* Your site config here */
   plugins: [
+    'gatsby-plugin-react-svg',
     {
-      resolve: "gatsby-plugin-react-svg",
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: `Giorgio Coccapani`,
@@ -28,6 +28,14 @@ module.exports = {
         cache_busting_mode: `query`,
       },
     },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `src`,
+        path: `${__dirname}/src/`,
+      },
+    },
+    `gatsby-transformer-remark`,
     'gatsby-plugin-offline',
     'gatsby-plugin-postcss'
   ],

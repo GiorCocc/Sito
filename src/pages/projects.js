@@ -1,10 +1,12 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
+import {graphql} from "gatsby"
 
-export default function Projects() {
+export default function Projects({data}) {
   return (
     <div>
+      <title>{data.site.siteMetadata.author} ~ About</title>
       <Header></Header>
       <p>Coming Soon</p>
       {/* Mettere in evidenza i progetti che sto svolgendo */}
@@ -14,3 +16,14 @@ export default function Projects() {
     </div>
   )
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`

@@ -1,12 +1,13 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import Blog from "../components/blog"
+import { graphql } from "gatsby"
 
 
-export default function Post() {
+export default function Post({data}) {
   return (
     <div>
+        <title>{data.site.siteMetadata.author} ~ Post</title>
       <Header></Header>
       <>
             <div id="blog" className="bg-transparent px-4 xl:px-0 py-12 mt-10 lg:mt-20 f-f-p">
@@ -92,3 +93,14 @@ export default function Post() {
     </div>
   )
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`

@@ -6,17 +6,32 @@ import SummaryPost from "../components/summary-post"
 import Form from "../components/form"
 import ContactImg from "../img/undraw_contact_us_15o2.svg"
 import Social from "../components/social"
+import Skills from "../components/skill"
+import SkillImg from "../img/undraw_developer_activity_bv83.svg"
+import Tools from "../components/tools"
+import {graphql} from "gatsby"
 
-
-export default function Home() {
+export default function Home({data}) {
   return (
     <div>
+      <title>{data.site.siteMetadata.author}</title>
       <Header></Header>
       <Hero></Hero>
       {/* Creare un div con dentro i programmi che so usare e linguaggi che conosco */}
       <SummaryPost></SummaryPost> {/* Sistemare i testi */}
       {/* Creare un blocco per i progetti svolti (coming soon..) */}
       {/* Creare un blocco per i contatti */}
+      <div className=" bg-gray-700 rounded-2xl p-8 mb-8">
+        <h1 className="xl:text-5xl pt-10 text-3xl text-gray-200 text-center font-bold mb-4">Skills e Strumenti</h1>
+        <p className="text-xl text-gray-200 text-center xl:w-3/5 mx-auto w-11/12">
+          [testo]
+        </p>
+        <div className="grid sm:grid-cols-1 md:grid-cols-2 pt-2">
+          <SkillImg className="w-full h-full p-8"></SkillImg>
+          <Skills></Skills>
+        </div>
+        <Tools></Tools>
+      </div>
       <div className="place-items-auto bg-yellow-300 rounded-3xl">
         <h1 className="xl:text-5xl pt-10 text-3xl text-gray-800 text-center font-bold mb-4">Contatti</h1>
         <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">
@@ -32,8 +47,19 @@ export default function Home() {
           </div>
         </div>
       </div>
-      {/* Aggiungere sezione con i social */}
+      
       <Footer></Footer>
     </div>
   )
 }
+
+export const query = graphql`
+  query {
+    site {
+      siteMetadata {
+        title
+        author
+      }
+    }
+  }
+`
