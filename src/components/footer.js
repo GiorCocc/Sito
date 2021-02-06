@@ -6,7 +6,6 @@ export default function Footer(){
             <div className="border-t border-gray-200">
                 <div className="container flex flex-col flex-wrap items-center justify-between p-5 mx-auto md:flex-row">
                     <a className="flex items-center w-48 mb-4 font-medium text-gray-900 title-font md:mb-0">
-                        {/* <img src={logo}/> */}
                         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
                             width="150pt" height="150pt" viewBox="0 0 747.000000 334.000000" preserveAspectRatio="xMidYMid meet">
                             <g transform="translate(0.000000,334.000000) scale(0.100000,-0.100000)" fill="currentcolor" stroke="none">
