@@ -9,7 +9,6 @@ export const query = graphql`
     site {
       siteMetadata {
         title
-        author
       }
     }
   }
@@ -18,7 +17,7 @@ export const query = graphql`
 export default function Post({data}) {
   return (
     <div>
-      <title>{data.site.siteMetadata.author} ~ About</title>
+      <title>{data.site.siteMetadata.title} ~ About</title>
       <Header></Header>
       <div>
         <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Info e contatti</h1>
