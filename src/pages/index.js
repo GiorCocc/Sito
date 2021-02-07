@@ -41,7 +41,7 @@ export default function Home({data}) {
             <Form></Form>
           </div>
           <div>
-            <ContactImg className="w-full h-full p-8"></ContactImg>
+            <ContactImg className="w-full h-full lg:p-8"></ContactImg>
           </div>
         </div>
       </div>
