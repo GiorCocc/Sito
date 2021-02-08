@@ -25,7 +25,7 @@ export default function Home({data}) {
           [testo]
         </p>
         <div className="grid sm:grid-cols-1 md:grid-cols-2 pt-2">
-          <SkillImg className="w-full h-full p-8"></SkillImg>
+          <SkillImg className="w-full h-auto p-8"></SkillImg>
           <Skills></Skills>
         </div>
         <Tools></Tools>
