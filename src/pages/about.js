@@ -33,6 +33,7 @@ export default function Post({data}) {
           <div className="flex flex-col h-full justify-between m-4">
             <div>
               <h2 className="text-front text-3xl font-thin leading-none mb-4 xs:text-center">Studente</h2>
+              <p className="text-front text-md font-thin leading-none mb-4 xs:text-center">Ingegneria informatica, elettronica e delle telecomunicazioni</p>
               <h1 className="text-4xl tracking-tight font-bold text-black sm:text-5xl xs:text-center md:text-6xl">Giorgio Coccapani</h1>
               <div className="relative inline-block leading-none">
                 <div className="grid place-items-center">
@@ -40,10 +41,20 @@ export default function Post({data}) {
                     <img aria-hidden="true" className="rounded-full mx-auto my-5 xs:w-1/2 lg:w-full place-self-center" src={img} alt="Giorgio Coccapani"></img>
                   </div>
                 </div>
-                <div className="flex my-3 gap-3 w-full place-items-center">
+                <div className="flex my-3 gap-3 w-full justify-between">
                   {/* Inserire le voci sulla posizione, sulla condizione e una per scaricare il file con il curriculum */}
-                  <p className="break-words text-center w-full">Studente di ingegneria informatica, elettronica e delle telecomunicazioni</p>                    
+                  <p className="break-words w-full">Focus on:</p>
+                  <p className="break-words text-justify w-full">Javascript e web developement</p>  
                 </div>
+                <div className="flex my-3 gap-3 w-full justify-between">
+                  <p className="break-words w-full">Condizione:</p>
+                  <p className="break-words w-full">Disponibile</p>  
+                </div>
+                {/* <div className="bg-linkedin rounded-xl p-3">
+                  <div className="flex flex-row justify-around">
+                    <p className="text-center text-white font-bold">Download</p>
+                  </div>
+                </div> */}
                 <h1 className="text-center text-2xl text-bold mb-3">Contatti</h1>
                 <div className="grid xs:grid-cols-1 sm:grid-cols-2 sm:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-6 ">
                 <div className="bg-white mb-6 cursor-pointer shadow-lg py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">

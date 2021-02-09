@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import img from "../img/me.jpg"
 import Social from "./social1"
@@ -27,9 +28,11 @@ export default function Hero(){
                     </p>
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <div class="rounded-md shadow">
-                            <a href="/contact/" class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-giallo md:py-4 md:text-lg md:px-10">
-                                Contattami
-                            </a>
+                            <Link to="/about/" >
+                                <div class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-giallo md:py-4 md:text-lg md:px-10">
+                                    Contattami
+                                </div>
+                            </Link>
                         </div>
                     </div>
                 </div>
