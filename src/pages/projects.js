@@ -130,7 +130,7 @@ export default function Projects({data}) {
         </div>
       </div>
     </section>
-
+    
                                     
       
       {/* Mettere in evidenza i progetti che sto svolgendo */}
