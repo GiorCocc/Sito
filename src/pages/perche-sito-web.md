@@ -1,8 +1,8 @@
 ---
-title: "Sweet Pandas Eating Sweets"
-date: "2017-08-10"
+title: "Perchè ho creato un sito web?"
+date: "2021-02-20"
 author: "Giorgio Coccapani"
-image: ../img/me.jpg
+description: "Perchè ho avuto la necessità di creare un sito web e quale sarà il suo scopo. Progetti e idee per il mio futuro."
 ---
 
 Pandas are really sweet.

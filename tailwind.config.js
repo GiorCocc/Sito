@@ -19,6 +19,7 @@ module.exports = {
 
       giallo:'#FFC85B',
       giallo_chiaro:'#ffd98e',
+      giallo_chiaro1: '#FFDD99',
       grigio_moltoscuro: '#111111',
       crema:'#ffeac1',
       grigio_scuro:'#2a2a2a',

@@ -89,11 +89,21 @@ export default function Header(){
                         </div>
                         <div class="hidden sm:block sm:ml-6">
                             <div class="flex space-x-4 ">
-                                <a href="/" class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                                <a href="/post/" class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Post</a>
-                                <a href="/projects/" class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Progetti</a>
-                                <a href="/contact/" class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contatti</a>
-                                <a href="/about/" class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</a>
+                                <Link to="/">
+                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</div>
+                                </Link>
+                                <Link to="/post/" >
+                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Post</div>
+                                </Link>
+                                <Link to="/projects/" >
+                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Progetti</div>
+                                </Link>
+                                <Link to="/contact/" >
+                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contatti</div>
+                                </Link>
+                                <Link to="/about/" >
+                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</div>
+                                </Link>
                             </div>
                         </div>
                     </div>
@@ -102,12 +112,20 @@ export default function Header(){
             <div class={`${isExpanded ? `block` : `hidden`}`}>
             <div class="grid sm:hidden grid-cols-2 text-center text-gray-700 border-b">
                 <div class="px-2 pt-2 pb-3 space-y-1">
-                    <a href="/" class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                    <a href="/post/" class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Post</a>
+                    <Link to="/" >
+                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</div>
+                    </Link>
+                    <Link to="/post/" >
+                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Post</div>
+                    </Link>
                 </div>
                 <div class="px-2 pt-2 pb-3 space-y-1">
-                    <a href="/projects/" class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Progetti</a>
-                    <a href="/contact/" class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contatti</a>
+                    <Link to="/projects/" >
+                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Progetti</div>
+                    </Link>
+                    <Link to="/contact/" >
+                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contatti</div>
+                    </Link>
                 </div>
             </div>
             </div>

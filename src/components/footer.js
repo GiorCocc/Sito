@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 
 export default function Footer(){
@@ -116,10 +117,12 @@ export default function Footer(){
                             </svg>
                     </a>
                     <div className="flex flex-wrap items-center justify-center mx-auto text-base text-center p-5">
-                        <a href="/contact/" class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-giallo p-5 rounded-md">
-                            Contatti</a>
-                        <a href="/about/" class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-giallo p-5 rounded-md">
-                            About</a>
+                        <Link to="/contact/" >
+                            <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-giallo p-5 rounded-md">Contatti</div>
+                        </Link>
+                        <Link to="/about/">
+                            <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-giallo p-5 rounded-md">About</div>
+                        </Link>
                         
                     </div>
                     <div className="inline-flex items-center justify-center md:justify-start s:hidden">
