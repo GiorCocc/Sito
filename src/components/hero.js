@@ -36,7 +36,7 @@ export default function Hero(){
                         </div>
                     </div>
                 </div>
-                <div className="my-4">
+                <div className="flex flex-row xs:justify-center lg:justify-start my-4 ">
                     <Social></Social>
                 </div>
             </main>

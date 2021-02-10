@@ -28,7 +28,7 @@ export default function Post({data}) {
       <Header></Header>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container px-4 xl:px-0">
         <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Info e contatti</h1>
-        <div className="md:max-w-screen mx-auto p-4 flex flex-wrap pt-4 my-8">
+        <div className="md:max-w-screen mx-auto flex flex-wrap pt-4 my-8">
         <aside className="w-full bg-giallo_chiaro lg:w-1/3 py-9 lg:border-r border-line lg:px-6 xl:px-12 rounded-xl">
           <div className="flex flex-col h-full justify-between m-4">
             <div>
