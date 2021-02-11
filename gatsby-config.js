@@ -41,6 +41,7 @@ module.exports = {
         path: `${__dirname}/src/img`,
       },
     },
+    `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-react-helmet`,
     `gatsby-image`,
     `gatsby-transformer-sharp`,
