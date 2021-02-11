@@ -169,7 +169,8 @@ export default function Footer(){
                 </div>
                 <div
                     className="flex flex-wrap items-center justify-center mx-auto text-base bg-blueGray-900 ">
-                    <p className="text-sm text-center text-gray-200 p-5">© giorgio_coccapani — 2020 — Realizzato con GatsbyJS e Tailwindcss — Host by Netlify
+                    <p className="text-sm text-center text-gray-200 p-5">
+                        © giorgio_coccapani — 2020 — Realizzato con <a href="https://www.gatsbyjs.com/" target="_blank" rel="noreferrer">GatsbyJS</a> e <a href="https://tailwindcss.com/" target="_blank" rel="noreferrer">Tailwindcss</a> — <a href="https://www.gatsbyjs.com/cloud/" target="_blank" rel="noreferrer">Host by Gatsby Cloud</a>
                     </p>
                 </div>
             </div>

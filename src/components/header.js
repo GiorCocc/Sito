@@ -98,9 +98,9 @@ export default function Header(){
                                 <Link to="/projects/" >
                                     <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Progetti</div>
                                 </Link>
-                                <Link to="/contact/" >
+                                {/* <Link to="/contact/" >
                                     <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contatti</div>
-                                </Link>
+                                </Link> */}
                                 <Link to="/about/" >
                                     <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</div>
                                 </Link>
@@ -123,8 +123,8 @@ export default function Header(){
                     <Link to="/projects/" >
                         <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Progetti</div>
                     </Link>
-                    <Link to="/contact/" >
-                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Contatti</div>
+                    <Link to="/about/" >
+                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</div>
                     </Link>
                 </div>
             </div>
