@@ -41,7 +41,6 @@ module.exports = {
         path: `${__dirname}/src/img`,
       },
     },
-    `gatsby-plugin-offline`,
     `gatsby-plugin-react-helmet`,
     `gatsby-image`,
     `gatsby-transformer-sharp`,
