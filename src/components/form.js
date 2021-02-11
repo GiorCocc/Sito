@@ -4,7 +4,7 @@ function Form() {
     return (
         <form name="contact" action="https://formspree.io/f/xpzonavl" method="POST">
             <div>
-                <div className="mx-auto pb-6 lg:pb-32 f-f-p container lg:mt-24 mt-12 px-4 xl:px-0">
+                <div className="mx-auto pb-2 lg:pb-1 f-f-p container lg:mt-14 mt-12 px-4 xl:px-0">
                     <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-2 gap-8">
                         <div className="flex flex-col my-0 lg:my-0 xl:my-0">
                             <label htmlFor="name" className="text-gray-800 text-sm font-bold leading-tight tracking-normal mb-2 ">

@@ -7,7 +7,8 @@
 module.exports = {
   siteMetadata:{
     title: `Giorgio Coccapani`,
-    description: `Sito personale di Giorgio Coccapani`,
+    description: `Sito personale di Giorgio Coccapani, sviluppatore, studente di ingegneria e appassionato di tecnologia. Un portfolio dove puoi trovare tutto ciò che posso offrire come sviluppatore e qualche pensiero raccolto in modo ordinato`,
+    author: `Giorgio Coccapani`,
   },
   /* Your site config here */
   plugins: [
@@ -17,7 +18,7 @@ module.exports = {
       options: {
         name: `Giorgio Coccapani`,
         short_name: `GC`,
-        description: `The application does cool things and makes your life better.`,
+        description: `Sito personale di Giorgio Coccapani, sviluppatore, studente di ingegneria e appassionato di tecnologia. Un portfolio dove puoi trovare tutto ciò che posso offrire come sviluppatore e qualche pensiero raccolto in modo ordinato`,
         lang: `it`,
         start_url: `/`,
         background_color: `#ffffff`,
@@ -40,6 +41,8 @@ module.exports = {
         path: `${__dirname}/src/img`,
       },
     },
+    `gatsby-plugin-offline`,
+    `gatsby-plugin-react-helmet`,
     `gatsby-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,

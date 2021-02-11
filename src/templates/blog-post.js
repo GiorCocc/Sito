@@ -4,12 +4,15 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import Form from "../components/form"
 import ContactImg from "../img/undraw_contact_us_15o2.svg"
+import SEO from "../components/seo"
 
 
 export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <div>
+      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <title>{post.frontmatter.author} ~ {post.frontmatter.title}</title>
       <Header></Header>
       <div className="m-4">
         <h1 className="text-center font-semibold text-3xl lg:text-5xl tracking-wider text-giallo my-3">{post.frontmatter.title}</h1>

@@ -9,11 +9,12 @@ import Skills from "../components/skill"
 import SkillImg from "../img/undraw_developer_activity_bv83.svg"
 import Tools from "../components/tools"
 import {graphql, Link} from "gatsby"
+import SEO from "../components/seo"
 
 export default function Home({data}) {
   return (
     <div>
-      <title>{data.site.siteMetadata.title}</title>
+      <SEO title="Home" description="Home page del sito, dove puoi trovare un rapido riassunto su di me e su ciò che faccio"></SEO>
       <Header></Header>
       <Hero></Hero>
       <SummaryPost></SummaryPost> {/* Sistemare i testi */}

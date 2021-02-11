@@ -3,15 +3,16 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import {graphql} from "gatsby"
 import img from "../img/me.jpg"
+import SEO from "../components/seo"
 
 export default function Projects({data}) {
   return (
     <div>
-      <title>{data.site.siteMetadata.title} ~ Progetti</title>
+      <SEO title="Progetti"></SEO>
       <Header></Header>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container px-4 xl:px-0">
           <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Progetti</h1> 
-          <p className="m-5 text-center">Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su github per un approfondimento</p>  
+          <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0"> Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su github per un approfondimento</p>  
       </div>
       <section class="overflow-hidden text-gray-700 body-font">
         <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">

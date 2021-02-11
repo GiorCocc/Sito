@@ -1,5 +1,5 @@
 import React from "react"
-import {graphql, Link} from "gatsby"
+import {Link} from "gatsby"
 import img1 from "../img/Logo-iniziali-e-nome.png"
 
 function SummaryPost() {
@@ -14,7 +14,7 @@ function SummaryPost() {
             <div className="lg:flex md:flex xl:justify-around sm:flex flex-wrap md:justify-around sm:justify-around lg:justify-around">
                 <div className="xl:w-1/3 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20 xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0">
                     <div className="shadow h-64 rounded z-10 bg-giallo_chiaro1">
-                        <img src={img1} alt className=" object-cover overflow-hidden rounded" />
+                        <img src={img1} alt="" className=" object-cover overflow-hidden rounded pt-3" />
                     </div>
                     <div className="p-6 shadow-lg w-11/12 mx-auto -mt-20 bg-white rounded z-20 relative">
                         <Link to="/perche-sito-web/">
