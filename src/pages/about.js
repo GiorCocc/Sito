@@ -30,7 +30,7 @@ export default function Post({data}) {
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container xl:px-0">
         <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Info e contatti</h1>
         <div className="md:max-w-screen mx-4 flex flex-wrap pt-4 my-8">
-        <aside className="w-full bg-giallo_chiaro lg:w-1/3 py-9 lg:border-r border-line lg:px-6 xl:px-12 rounded-xl">
+        <aside className="w-full bg-giallo_chiaro lg:w-1/3 py-9 lg:px-6 xl:px-12 rounded-xl">
           <div className="flex flex-col h-full justify-between m-4">
             <div>
               <h2 className="text-front text-3xl font-thin leading-none mb-4 xs:text-center">Studente</h2>
@@ -63,9 +63,9 @@ export default function Post({data}) {
                       <path d="M7.64706 2H18.9412L24.5882 16.1866L17.5294 20.4426C20.5533 26.6039 25.5157 31.5905 31.6471 34.6291L35.8824 27.5358L50 33.2105V44.5597C50 46.0647 49.405 47.5081 48.346 48.5723C47.287 49.6365 45.8506 50.2344 44.3529 50.2344C33.3391 49.5618 22.951 44.8619 15.1487 37.0215C7.34636 29.1811 2.66932 18.7423 2 7.67463C2 6.16963 2.59496 4.72626 3.65398 3.66206C4.71301 2.59786 6.14937 2 7.64706 2Z" stroke="#052E47" strokeWidth={3} strokeLinecap="round" strokeLinejoin="round" />
                     </svg>
                     <h2 className="text-lg font-bold tracking-wide mt-4 mb-5 text-gray-900">Telefono</h2>
-                    <p className="text-base font-semibold tracking-wide text-gray-900">+39 3455317940</p>
+                    <p className="text-base font-base tracking-wide text-gray-900">+39 3455317940</p>
                   </div>
-                  <div className="bg-white mb-6 shadow-lg py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">
+                  <a href="https://www.google.com/maps/place/43011+Busseto+PR/@44.979188,10.0343186,15z/data=!3m1!4b1!4m5!3m4!1s0x4780f7d82e7e7f0d:0xe06a52d037fd1044!8m2!3d44.9808926!4d10.0421718" target="_blank" rel="noreferrer" className="bg-white mb-6 shadow-lg py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">
                     <svg xmlns="http://www.w3.org/2000/svg" width={52} height={52} viewBox="0 0 50 51" fill="none">
                       <path d="M1 10.0439L17 1L33 10.0439L49 1V40.1904L33 49.2344L17 40.1904L1 49.2344V10.0439Z" stroke="#4A5568" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
                       <path d="M17 1V40.1904" stroke="#4A5568" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
@@ -73,11 +73,9 @@ export default function Post({data}) {
                     </svg>
                     <h2 className="text-lg font-bold tracking-wide mt-4 mb-5 text-gray-700">Location</h2>
                     <div className="text-gray-700 text-base tracking-wide text-center">
-                      <p className="leading-7">Busseto, 43011</p>
-                      <p className="leading-7">Parma</p>
-                      <p className="leading-7">Italia</p>
+                      <p className="leading-7">44°58′45.84″N 10°02′35.92″E</p>
                     </div>
-                  </div>
+                  </a>
                 </div>
                 <a href="mailto: giorcocc@gmail.com">
                   <div className="bg-white shadow-lg  py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">
@@ -97,9 +95,114 @@ export default function Post({data}) {
           </div>
         </aside>
         <main className="lg:w-2/3 lg:pl-8 xl:pl-12">
-          <p className="text-justify">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut iaculis orci tortor. Ut quis ultricies erat. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Nunc tincidunt enim non est scelerisque, id venenatis odio commodo. Aenean aliquet ultricies ipsum ac placerat. Suspendisse potenti. In hac habitasse platea dictumst. Nunc tempor interdum ipsum nec pellentesque. Vivamus felis turpis, dapibus sed purus non, malesuada pretium sem. Proin tempor odio odio, consectetur sollicitudin mauris elementum nec. Nam lobortis lectus sit amet consectetur auctor. Mauris vel tortor pulvinar, rutrum mi eget, luctus turpis. Maecenas dictum porttitor varius. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Donec ultrices vel sapien a interdum. Donec interdum mauris porttitor auctor accumsan. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae; Lorem ipsum dolor sit amet, consectetur adipiscing elit.Aliquam leo ipsum, convallis in vestibulum ac, pretium tempus nunc. Mauris molestie justo eu iaculis gravida. Sed efficitur posuere justo, ac auctor dui interdum sit amet. Nullam non fringilla mauris. Sed eget risus nec ligula egestas aliquet eu sed dui. Cras consequat efficitur felis, at facilisis tortor consectetur in. Duis egestas, dolor venenatis mollis auctor, orci ipsum condimentum odio, eu sollicitudin purus nulla a mauris. Maecenas hendrerit auctor luctus. Suspendisse sit amet lectus non leo dignissim rhoncus eu sit amet dolor. Praesent dictum accumsan diam, a consectetur libero feugiat et. Suspendisse potenti. Morbi ultrices vulputate sapien, sed elementum velit fringilla quis. Nam orci elit, lacinia ac nulla ac, fermentum bibendum leo. In euismod tortor nec mi sollicitudin, rhoncus malesuada erat sodales. Integer auctor cursus dignissim.Donec non mollis purus. Mauris et fringilla eros. Integer dapibus quam ac lectus commodo, volutpat tincidunt dui placerat. Suspendisse consectetur posuere magna, gravida auctor erat finibus sit amet. Aenean maximus mattis ex vel sollicitudin. Mauris pellentesque tortor at magna lacinia, a gravida tortor venenatis. Nulla facilisi. Nam bibendum placerat ipsum, nec lacinia risus ultricies in. Ut dolor nibh, molestie consequat imperdiet egestas, mollis vitae mi. Quisque et tortor sed nisi faucibus congue. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque cursus elementum volutpat. Sed pretium aliquet lacus eget fermentum. Aliquam blandit, velit eget hendrerit euismod, libero libero dictum arcu, eget rutrum nibh libero eget ipsum. Maecenas imperdiet purus a nunc fringilla, vitae accumsan erat efficitur.Praesent ut nunc a arcu vestibulum lobortis in vitae mauris. Fusce semper non nisi eget vestibulum. Sed a tortor porta, lacinia augue non, volutpat mauris. Nullam tempus blandit lorem sit amet lacinia. Ut laoreet id metus et convallis. Fusce lacinia sagittis posuere. Vestibulum ac purus sapien. Nulla elementum sem ut hendrerit pulvinar. Mauris a enim non diam mollis lobortis. Pellentesque ultrices mauris sit amet massa euismod porta. Donec rutrum pharetra nisl ac imperdiet.       
+          <p className="text-justify text-lg text-gray-600 mb-3">
+            Ciao a tutti, mi chiamo Coccapani Giorgio, ho 20 anni e sono un aspirante sviluppatore. Studio  <strong>ingegneria informatica, elettronica e telecomunicazioni presso l’Università degli studi di Parma</strong>. Nella vita sono un grande appassionato di tecnologia, in tutti i suoi aspetti, dall’hardware a, soprattutto il <strong>software</strong>, dai videogiochi ai programmi che utilizziamo nella vita di tutti i giorni.
           </p>
+          <p className="text-justify text-lg text-gray-600 mb-3">
+            La mia carriera come sviluppatore è iniziata intorno alle scuole medie, quanto ho iniziato ad avventurarmi in progetti fallimentari nello sviluppo di applicazioni android, prima in java e successivamente in linguaggio Kotlin. Da questi progetti ho capito solo una cosa, che dietro una semplicissima applicazione o gioco per smartphone c’è un mondo intero fatto di <strong>duro lavoro e di passione</strong>.  Solo una volta iniziato il liceo scientifico mi sono davvero appassionato alla programmazione e ho deciso di intraprendere questo percorso. Durante gli anni del liceo ho potuto gettare delle solide basi nella programmazione in linguaggio C e C++, ho potuto entrare e dare una semplicissima occhiata al mondo del web, limitandomi però al linguaggio HTML. Il mio percorso di studi al liceo si è poi concluso con un grande progetto, realizzato assieme a due mie compagni: la realizzazione di un semplice <a href="https://github.com/GiorCocc/gioco-esame" target="_blank" rel="noreferrer" className="text-giallo font-bold">videogioco</a>, basato sul motore grafico Unity e linguaggio C#.
+          </p>
+          <p className="text-justify text-lg text-gray-600 mb-3">
+            La scelta dell’università è stata dettata principalmente dalla voglia di seguire le mie passioni, di consolidare le basi di programmazione e di comprendere come si progettano circuiti e sistemi elettronici e capire come i dati che ci permettono di rimanere connessi e di lavorare nel modo più efficiente possibile vengono trasmessi in ogni angolo del pianeta. Grazie al corso di elettronica ho potuto sperimentare con la board <a href="https://github.com/GiorCocc/arduino" target="_blank" rel="noreferrer" className="text-giallo font-bold">Arduino</a>, con la quale, grazie ai corsi universitari, ho potuto realizzare alcuni progetti (estremamente semplici e banali) che mi hanno dato la possibilità di capire realmente lo sviluppo di sistemi elettronici digitali. Ora invece mi sto lanciando su progetti più complessi e differenti con Raspberry, cercando di creare applicazioni e sistemi per il mondo Linux, che sto imparando a conoscere, e la robotica
+          </p>
+          <p className="text-justify text-lg text-gray-600 mb-3">
+            La mia passione rimane comunque lo sviluppo software, dal momento che reputo questo settore il più <strong>entusiasmante e stimolante</strong>. Sono convinto che a livello di hardware abbiamo già raggiunto un ottimo livello in termini di potenza, efficienza e affidabilità e che nei prossimi decessi, si ci potranno essere delle innovazioni sensazionali, ma tutto ciò che abbiamo creato fino ad oggi ci permette di arrivare davvero molto in alto come genere umano;  e quindi, a mio avviso, ora tutto si gioca a livello software per poter sfruttare al meglio le <strong>potenzialità</strong> offerte dall’elettronica che altrimenti verrebbero sprecate e non ci sarebbe più <strong>innovazione</strong>. Dal momento che ogni giorno ci interfacciamo più con un software che con un dispositivo hardware, premendo e spostando elementi virtuali e inviando dati da un estremo all’altro del pianeta, il nostro compito come sviluppatori è quello di rendere hardware e software il più compatibili possibili in modo da creare una <strong>sinergia</strong> perfetta tra queste due metà e di sfruttare a pieno le possibilità offerte da entrambe le parti. Dobbiamo rendere mondo, non un posto migliore, ma più semplice per noi, per poter affrontare le <strong>sfide</strong> di tutti i giorni e quelle che verranno nel modo più semplice possibili così da permetterci di puntare sempre più in alto, di rendere ciò che ora reputiamo complesso semplice e porci obbiettivi più alti.
+          </p>
+          <p className="text-justify text-lg text-gray-600 mb-3">
+            Ma ora basta parlare di me e di filosofeggiare. Qui sotto c’è un form contatti. Scrivete pure liberamente, se trovate problemi con il sito, se qualcosa non funziona o per consigli e opportunità che volete offrirmi. Siate liberi di contattarmi in qualunque momento e io cercherò di rispondermi e di correggere eventuali errori.
+          </p>
+
+          <div class="container">
+          <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-gray-50">
+            {/* <!-- left --> */}
+            <div class="flex flex-row-reverse md:contents">
+              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
+                <h3 class="font-semibold text-lg mb-1">2015</h3>
+                <p class="leading-tight text-justify">
+                  Inizio Liceo scientifico
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
+                ></div>
+              </div>
+            </div>
+            {/* <!-- right --> */}
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
+                ></div>
+              </div>
+              <div class="bg-gray-600 col-start-6 col-end-10 p-4 rounded-xl xs:my-4 md:my-0 mr-auto shadow-md">
+                <h3 class="font-semibold text-lg mb-1">2016-2019</h3>
+                <p class="leading-tight text-justify">
+                  Studio scolastico della programmazione in C/C++ e HTML
+                </p>
+              </div>
+            </div>
+            {/* <!-- left --> */}
+            <div class="flex flex-row-reverse md:contents">
+              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
+                <h3 class="font-semibold text-lg mb-1">2020</h3>
+                <p class="leading-tight text-justify">
+                  Realizzazione del videogioco in Unity e C#
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
+                ></div>
+              </div>
+            </div>
+            {/* <!-- right --> */}
+            <div class="flex md:contents">
+              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
+                ></div>
+              </div>
+              <div class="bg-gray-600 col-start-6 col-end-10 p-4 rounded-xl xs:my-4 md:my-0 mr-auto shadow-md">
+                <h3 class="font-semibold text-lg mb-1">2020</h3>
+                <p class="leading-tight text-justify">
+                  Inizio carriera universitaria a Parma
+                </p>
+              </div>
+            </div>
+            {/* <!-- left --> */}
+            <div class="flex flex-row-reverse md:contents">
+              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
+                <h3 class="font-semibold text-lg mb-1">26-02-2021</h3>
+                <p class="leading-tight text-justify">
+                  Pubblicazione del sito
+                </p>
+              </div>
+              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
+                <div class="h-full w-6 flex items-center justify-center">
+                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
+                </div>
+                <div
+                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
+                ></div>
+              </div>
+            </div>
+
+            
+            
+          </div>
+        </div>    
           
         </main>
 

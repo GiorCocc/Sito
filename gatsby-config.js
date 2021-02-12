@@ -25,7 +25,7 @@ module.exports = {
         theme_color: `#ffc85b`,
         display: `minimal-ui`,
         icon :`src/img/icon.png`,
-        cache_busting_mode: `none`,
+        cache_busting_mode: `query`,
       },
     },
     {
