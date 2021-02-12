@@ -3,6 +3,8 @@ import Header from "../components/header"
 import Footer from "../components/footer"
 import {graphql} from "gatsby"
 import bigboi from "../img/bigboi.png"
+import cppproject from "../img/CPP-projects.png"
+import pyproject from "../img/Python-projects.png"
 import SEO from "../components/seo"
 
 export default function Projects({data}) {
@@ -12,7 +14,7 @@ export default function Projects({data}) {
       <Header></Header>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container px-4 xl:px-0">
           <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Progetti</h1> 
-          <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0"> Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su github per un approfondimento</p>  
+          <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-20"> Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su <a href="https://github.com/GiorCocc" target="_blank" rel="noreferrer" className="text-giallo">GitHub</a> per un approfondimento e per contribuire, aggiornare e recuperare tutti i miei lavori</p>  
       </div>
       <section class="overflow-hidden text-gray-700 body-font">
         <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
@@ -22,7 +24,7 @@ export default function Projects({data}) {
                 <div className="flex flex-row">
                   <a href="https://github.com/GiorCocc/programmi-liceo" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                     <div>
-                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://dummyimage.com/500x300/F3F4F7/8693ac"></img>
+                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={cppproject}></img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Programmi C/C++ Liceo</p>
                         <div className="flex flex-row place-self-end border rounded-full">
@@ -37,7 +39,7 @@ export default function Projects({data}) {
                   </a>
                   <a href="https://github.com/GiorCocc/cpp-project-unipr" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                     <div>
-                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://dummyimage.com/500x300/F3F4F7/8693ac"></img>
+                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={cppproject}></img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Programmi Università C++</p>
                         <div className="flex flex-row place-self-end border rounded-full">
@@ -96,7 +98,7 @@ export default function Projects({data}) {
               <div className="flex flex-row">
                 <a href="https://github.com/GiorCocc/python_project-unipr" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                   <div>
-                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://dummyimage.com/500x300/F3F4F7/8693ac"></img>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={pyproject}></img>
                     <div className="flex flex-col justify-between">
                       <p className="place-self-start align-center">Programmi Università python</p>
                       <div className="flex flex-row place-self-end border rounded-full">

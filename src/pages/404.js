@@ -15,7 +15,7 @@ export default function Error(){
                     Pare che la pagina che hai cercato non esista...
                 </p>
                 <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">
-                    Se hai riscontrato qualche prblema, per favore, contattami con il form dedicato
+                    Se hai riscontrato qualche problema, per favore, contattami con il form dedicato disponibile sul sito
                 </p>
                 <div className="bg-gray-700 hover:bg-giallo text-2xl m-5 p-5 rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
                     <a href="/" className="h-full w-full text-gray-200 hover:text-gray-700">Torna al sito</a>
