@@ -25,7 +25,7 @@ Su questo mio spazio verranno pubblicati articoli, scritti senza troppo attenzio
 
 Nel sito mancano ancora tantissime cose e voglio riportarvi solo alcune delle idee e degli elementi che voglio inserirvi
 
-- Dark mode: so che è una cosa banale, scontata e che lo faccio solo per senso estetico e perchè è di moda, ma a me piace (vi prego, se avete estensioni che forzano i siti a diventare scuri, per favore, evitate che si attivi per il mio, ora è davvero orribile)
+* Dark mode: so che è una cosa banale, scontata e che lo faccio solo per senso estetico e perchè è di moda, ma a me piace (vi prego, se avete estensioni che forzano i siti a diventare scuri, per favore, evitate che si attivi per il mio, ora è davvero orribile)
 - Indicizzazione nei motori di ricerca: non so come mai, ho seguito le guide di Gatsby per la pubblicazione, inserendo metadata e un SEO, ma ancora non riesco a vederlo né su Google né su Bing
 - Mini galleria progetti in home: mi piacerebbe inserire alcuni progetti, quelli di cui vado più fiero, nella home page, e lasciare tutti gli altri nella pagina dedicata
 - Inserire un curriculum e una sezione tipo FAQ
