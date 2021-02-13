@@ -41,12 +41,31 @@ module.exports = {
         path: `${__dirname}/src/img`,
       },
     },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-classes`,
+            options: {
+              classMap: {
+                "heading[depth=1]": "text-3xl text-giallo",
+                "heading[depth=2]": "text-xl text-gray-700",
+                "paragraph": "text-justify text-lg text-gray-600 mb-3",
+                "list[ordered=false]": "text-justify text-lg text-gray-600 mb-3",
+                "listItem": "ml-5 text-justify text-lg text-gray-600 mb-1",
+                "link": "text-justify text-lg text-giallo mb-3"
+              }
+            }
+          }
+        ]
+      }
+    },
     `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-react-helmet`,
     `gatsby-image`,
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-remark`,
     'gatsby-plugin-postcss'
   ],
 }
