@@ -14,7 +14,7 @@ export default function Projects({data}) {
       <SEO title="Progetti"></SEO>
       <Header></Header>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container px-4 xl:px-0">
-          <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Progetti</h1> 
+          <h1 className="text-center text-3xl lg:text-5xl font-semibold tracking-wider text-gray-900">Progetti</h1> 
           <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-20"> Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su <a href="https://github.com/GiorCocc" target="_blank" rel="noreferrer" className="text-giallo">GitHub</a> per un approfondimento e per contribuire, aggiornare e recuperare tutti i miei lavori</p>  
       </div>
       <section class="overflow-hidden text-gray-700 body-font">

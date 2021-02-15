@@ -1,7 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import {graphql} from "gatsby"
+import {graphql, Link} from "gatsby"
 import img from "../img/me.jpg"
 import Skills from "../components/skill"
 import SkillImg from "../img/undraw_developer_activity_bv83.svg"
@@ -9,6 +9,7 @@ import Tools from "../components/tools"
 import Form from "../components/form"
 import ContactImg from "../img/undraw_contact_us_15o2.svg"
 import SEO from "../components/seo"
+import Timeline from "../components/timeline"
 
 
 
@@ -28,7 +29,7 @@ export default function Post({data}) {
       <SEO title="About"></SEO>
       <Header></Header>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container xl:px-0">
-        <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Info e contatti</h1>
+        <h1 className="text-center text-3xl lg:text-5xl font-semibold tracking-wider text-gray-900">Info e contatti</h1>
         <div className="md:max-w-screen mx-4 flex flex-wrap pt-4 my-8">
         <aside className="w-full bg-giallo_chiaro lg:w-1/3 py-9 lg:px-6 xl:px-12 rounded-xl">
           <div className="flex flex-col h-full justify-between m-4">
@@ -99,10 +100,10 @@ export default function Post({data}) {
             Ciao a tutti, mi chiamo Coccapani Giorgio, ho 20 anni e sono un aspirante sviluppatore. Studio  <strong>ingegneria informatica, elettronica e telecomunicazioni presso l’Università degli studi di Parma</strong>. Nella vita sono un grande appassionato di tecnologia, in tutti i suoi aspetti, dall’hardware a, soprattutto il <strong>software</strong>, dai videogiochi ai programmi che utilizziamo nella vita di tutti i giorni.
           </p>
           <p className="text-justify text-lg text-gray-600 mb-3">
-            La mia carriera come sviluppatore è iniziata intorno alle scuole medie, quanto ho iniziato ad avventurarmi in progetti fallimentari nello sviluppo di applicazioni android, prima in java e successivamente in linguaggio Kotlin. Da questi progetti ho capito solo una cosa, che dietro una semplicissima applicazione o gioco per smartphone c’è un mondo intero fatto di <strong>duro lavoro e di passione</strong>.  Solo una volta iniziato il liceo scientifico mi sono davvero appassionato alla programmazione e ho deciso di intraprendere questo percorso. Durante gli anni del liceo ho potuto gettare delle solide basi nella programmazione in linguaggio C e C++, ho potuto entrare e dare una semplicissima occhiata al mondo del web, limitandomi però al linguaggio HTML. Il mio percorso di studi al liceo si è poi concluso con un grande progetto, realizzato assieme a due mie compagni: la realizzazione di un semplice <a href="https://github.com/GiorCocc/gioco-esame" target="_blank" rel="noreferrer" className="text-giallo font-bold">videogioco</a>, basato sul motore grafico Unity e linguaggio C#.
+            La mia carriera come sviluppatore è iniziata intorno alle scuole medie, quanto ho iniziato ad avventurarmi in progetti fallimentari nello sviluppo di applicazioni android, prima in java e successivamente in linguaggio Kotlin. Da questi progetti ho capito solo una cosa, che dietro una semplicissima applicazione o gioco per smartphone c’è un mondo intero fatto di <strong>duro lavoro e di passione</strong>.  Solo una volta iniziato il liceo scientifico mi sono davvero appassionato alla programmazione e ho deciso di intraprendere questo percorso. Durante gli anni del liceo ho potuto gettare delle solide basi nella programmazione in linguaggio C e C++, ho potuto entrare e dare una semplicissima occhiata al mondo del web, limitandomi però al linguaggio HTML. Il mio percorso di studi al liceo si è poi concluso con un grande progetto, realizzato assieme a due mie compagni: la realizzazione di un semplice <Link to="https://github.com/GiorCocc/gioco-esame" target="_blank" rel="noreferrer" className="text-giallo font-bold">videogioco</Link>, basato sul motore grafico Unity e linguaggio C#.
           </p>
           <p className="text-justify text-lg text-gray-600 mb-3">
-            La scelta dell’università è stata dettata principalmente dalla voglia di seguire le mie passioni, di consolidare le basi di programmazione e di comprendere come si progettano circuiti e sistemi elettronici e capire come i dati che ci permettono di rimanere connessi e di lavorare nel modo più efficiente possibile vengono trasmessi in ogni angolo del pianeta. Grazie al corso di elettronica ho potuto sperimentare con la board <a href="https://github.com/GiorCocc/arduino" target="_blank" rel="noreferrer" className="text-giallo font-bold">Arduino</a>, con la quale, grazie ai corsi universitari, ho potuto realizzare alcuni progetti (estremamente semplici e banali) che mi hanno dato la possibilità di capire realmente lo sviluppo di sistemi elettronici digitali. Ora invece mi sto lanciando su progetti più complessi e differenti con Raspberry, cercando di creare applicazioni e sistemi per il mondo Linux, che sto imparando a conoscere, e la robotica
+            La scelta dell’università è stata dettata principalmente dalla voglia di seguire le mie passioni, di consolidare le basi di programmazione e di comprendere come si progettano circuiti e sistemi elettronici e capire come i dati che ci permettono di rimanere connessi e di lavorare nel modo più efficiente possibile vengono trasmessi in ogni angolo del pianeta. Grazie al corso di elettronica ho potuto sperimentare con la board <Link to="https://github.com/GiorCocc/arduino" target="_blank" rel="noreferrer" className="text-giallo font-bold">Arduino</Link>, con la quale, grazie ai corsi universitari, ho potuto realizzare alcuni progetti (estremamente semplici e banali) che mi hanno dato la possibilità di capire realmente lo sviluppo di sistemi elettronici digitali. Ora invece mi sto lanciando su progetti più complessi e differenti con Raspberry, cercando di creare applicazioni e sistemi per il mondo Linux, che sto imparando a conoscere, e la robotica
           </p>
           <p className="text-justify text-lg text-gray-600 mb-3">
             La mia passione rimane comunque lo sviluppo software, dal momento che reputo questo settore il più <strong>entusiasmante e stimolante</strong>. Sono convinto che a livello di hardware abbiamo già raggiunto un ottimo livello in termini di potenza, efficienza e affidabilità e che nei prossimi decessi, si ci potranno essere delle innovazioni sensazionali, ma tutto ciò che abbiamo creato fino ad oggi ci permette di arrivare davvero molto in alto come genere umano;  e quindi, a mio avviso, ora tutto si gioca a livello software per poter sfruttare al meglio le <strong>potenzialità</strong> offerte dall’elettronica che altrimenti verrebbero sprecate e non ci sarebbe più <strong>innovazione</strong>. Dal momento che ogni giorno ci interfacciamo più con un software che con un dispositivo hardware, premendo e spostando elementi virtuali e inviando dati da un estremo all’altro del pianeta, il nostro compito come sviluppatori è quello di rendere hardware e software il più compatibili possibili in modo da creare una <strong>sinergia</strong> perfetta tra queste due metà e di sfruttare a pieno le possibilità offerte da entrambe le parti. Dobbiamo rendere mondo, non un posto migliore, ma più semplice per noi, per poter affrontare le <strong>sfide</strong> di tutti i giorni e quelle che verranno nel modo più semplice possibili così da permetterci di puntare sempre più in alto, di rendere ciò che ora reputiamo complesso semplice e porci obbiettivi più alti.
@@ -111,98 +112,7 @@ export default function Post({data}) {
             Ma ora basta parlare di me e di filosofeggiare. Qui sotto c’è un form contatti. Scrivete pure liberamente, se trovate problemi con il sito, se qualcosa non funziona o per consigli e opportunità che volete offrirmi. Siate liberi di contattarmi in qualunque momento e io cercherò di rispondermi e di correggere eventuali errori.
           </p>
 
-          <div class="container">
-          <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-gray-50">
-            {/* <!-- left --> */}
-            <div class="flex flex-row-reverse md:contents">
-              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
-                <h3 class="font-semibold text-lg mb-1">2015</h3>
-                <p class="leading-tight text-justify">
-                  Inizio Liceo scientifico
-                </p>
-              </div>
-              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
-                ></div>
-              </div>
-            </div>
-            {/* <!-- right --> */}
-            <div class="flex md:contents">
-              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
-                ></div>
-              </div>
-              <div class="bg-gray-600 col-start-6 col-end-10 p-4 rounded-xl xs:my-4 md:my-0 mr-auto shadow-md">
-                <h3 class="font-semibold text-lg mb-1">2016-2019</h3>
-                <p class="leading-tight text-justify">
-                  Studio scolastico della programmazione in C/C++ e HTML
-                </p>
-              </div>
-            </div>
-            {/* <!-- left --> */}
-            <div class="flex flex-row-reverse md:contents">
-              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
-                <h3 class="font-semibold text-lg mb-1">2020</h3>
-                <p class="leading-tight text-justify">
-                  Realizzazione del videogioco in Unity e C#
-                </p>
-              </div>
-              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
-                ></div>
-              </div>
-            </div>
-            {/* <!-- right --> */}
-            <div class="flex md:contents">
-              <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
-                ></div>
-              </div>
-              <div class="bg-gray-600 col-start-6 col-end-10 p-4 rounded-xl xs:my-4 md:my-0 mr-auto shadow-md">
-                <h3 class="font-semibold text-lg mb-1">2020</h3>
-                <p class="leading-tight text-justify">
-                  Inizio carriera universitaria a Parma
-                </p>
-              </div>
-            </div>
-            {/* <!-- left --> */}
-            <div class="flex flex-row-reverse md:contents">
-              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
-                <h3 class="font-semibold text-lg mb-1">26-02-2021</h3>
-                <p class="leading-tight text-justify">
-                  Pubblicazione del sito
-                </p>
-              </div>
-              <div class="col-start-5 col-end-6 md:mx-auto relative mr-10">
-                <div class="h-full w-6 flex items-center justify-center">
-                  <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
-                </div>
-                <div
-                  class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
-                ></div>
-              </div>
-            </div>
-
-            
-            
-          </div>
-        </div>    
+          <Timeline></Timeline>    
           
         </main>
 

@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 import SEO from "../components/seo"
 import FullLogo from "../img/Full_name_logo-removebg-preview.svg"
@@ -18,7 +19,7 @@ export default function Error(){
                     Se hai riscontrato qualche problema, per favore, contattami con il form dedicato disponibile sul sito
                 </p>
                 <div className="bg-gray-700 hover:bg-giallo text-2xl m-5 p-5 rounded-xl transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
-                    <a href="/" className="h-full w-full text-gray-200 hover:text-gray-700">Torna al sito</a>
+                    <Link to="/" className="h-full w-full text-gray-200 hover:text-gray-700">Torna al sito</Link>
                 </div>
                 <FullLogo className="w-2/3 h-full "></FullLogo>
             </div>

@@ -13,7 +13,7 @@ export default function Post({data}) {
         <SEO title="Post"></SEO>
         <Header></Header>
         <div className="f-f-p pt-16 lg:pt-32 mx-auto container px-4 xl:px-0">
-          <h1 className="text-center text-3xl lg:text-5xl tracking-wider text-gray-900">Post ~ {data.allMarkdownRemark.totalCount} articoli</h1>
+          <h1 className="text-center text-3xl font-semibold lg:text-5xl tracking-wider text-gray-900">Post ~ {data.allMarkdownRemark.totalCount} articoli</h1>
           <div className="grid md:grid-cols-2">
             <div>
               <PostImg className="w-full h-full p-8"></PostImg>

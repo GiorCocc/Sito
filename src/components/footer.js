@@ -1,4 +1,3 @@
-import { Link } from "gatsby"
 import React from "react"
 
 export default function Footer(){
@@ -117,12 +116,12 @@ export default function Footer(){
                             </svg>
                     </div>
                     <div className="flex flex-wrap items-center justify-center mx-auto text-base text-center p-5">
-                        <Link to="/contact/" >
+                        <a href="/contact/" >
                             <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-giallo p-5 rounded-md">Contatti</div>
-                        </Link>
-                        <Link to="/about/">
+                        </a>
+                        <a href="/about/">
                             <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-giallo p-5 rounded-md">About</div>
-                        </Link>
+                        </a>
                         
                     </div>
                     <div className="inline-flex items-center justify-center md:justify-start s:hidden">
@@ -133,14 +132,14 @@ export default function Footer(){
                                         <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
                                     </svg>
                                 </a>
-                                <a target="_blank" rel="noreferrer" class="ml-4 hover:text-twitter" href="https://twitter.com/giorcocc" >
+                                {/* <a target="_blank" rel="noreferrer" class="ml-4 hover:text-twitter" href="https://twitter.com/giorcocc" >
                                     <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
                                         className="w-5 h-5" viewBox="0 0 24 24">
                                         <path
                                             d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
                                         </path>
                                     </svg>
-                                </a>
+                                </a> */}
                                 <a target="_blank" rel="noreferrer" className="ml-4 hover:text-instagram" href="https://www.instagram.com/giorgio_coccapani/">
                                     <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
