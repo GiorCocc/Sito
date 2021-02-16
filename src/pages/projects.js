@@ -14,14 +14,14 @@ const Projects=(props)=>(
           <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-20"> Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su <a href="https://github.com/GiorCocc" target="_blank" rel="noreferrer" className="text-giallo">GitHub</a> per un approfondimento e per contribuire, aggiornare e recuperare tutti i miei lavori</p>  
       </div>
       <section class="overflow-hidden text-gray-700 body-font">
-        <div class="container px-5 py-2 mx-auto lg:pt-24 lg:px-32">
-          <div className="grid lg:grid-cols-2 xl:grid-cols-3">
+        <div class="container p-2 lg:pt-24 lg:px-32">
+          <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mx-auto">
             <div>
               <div className="flex flex-col">
                 <div className="flex flex-row">
                   <a href="https://github.com/GiorCocc/programmi-liceo" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                     <div>
-                      <Img alt="Programmi C/C++ liceo" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.cpp.childImageSharp.fluid}></Img>
+                      <Img alt="Programmi C/C++ liceo" className="block object-cover object-center rounded-lg" fluid={props.data.cpp.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Programmi C/C++ Liceo</p>
                         <div className="flex flex-row place-self-end border rounded-full">
@@ -36,7 +36,7 @@ const Projects=(props)=>(
                   </a>
                   <a href="https://github.com/GiorCocc/cpp-project-unipr" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                     <div>
-                      <Img alt="Programmi C++ università" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.cpp.childImageSharp.fluid}></Img>
+                      <Img alt="Programmi C++ università" className="block object-cover object-center rounded-lg" fluid={props.data.cpp.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Programmi UniPr C++</p>
                         <div className="flex flex-row place-self-end border rounded-full">
@@ -73,7 +73,7 @@ const Projects=(props)=>(
                   <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://dummyimage.com/600x360/F3F4F7/8693ac"></img>
                   <div className="flex flex-col justify-between">
                     <p className="place-self-start align-center">Robot Cane Raspberry</p>
-                    <div className="flex flex-row gap-3">
+                    <div className="flex flex-row gap-3 overflow-x-auto">
                       <div className="flex flex-row place-self-end border rounded-full">
                         <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#C51A4A" className="h-7 mx-0.5 p-0.5 place-self-center">
                             <title>Raspberry Pi icon</title>
@@ -113,7 +113,7 @@ const Projects=(props)=>(
                     <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://dummyimage.com/500x300/F3F4F7/8693ac"></img>
                     <div className="flex flex-col justify-between">
                       <p className="place-self-start align-center">Progetti UniPr arduino</p>
-                      <div className="flex flex-row gap-3">
+                      <div className="flex flex-row gap-3 overflow-x-auto">
                         <div className="flex flex-row place-self-end border rounded-full">
                             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#00979D" className="h-7 mx-0.5 p-0.5 place-self-center">
                                 <title>Arduino icon</title>
@@ -141,7 +141,7 @@ const Projects=(props)=>(
                     <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer">
                       <Img className="rounded-xl" fluid={props.data.logo.childImageSharp.fluid} alt="Logo del sito"></Img>
                       <div className="flex flex-col justify-between">
-                        <p className="place-self-start align-center">giorgiococcapani.gtsb.io</p>
+                        <p className="place-self-start align-center">Portfolio personale</p>
                         <div className="flex flex-row gap-3 overflow-x-auto">
                           <div className="flex flex-row place-self-end border rounded-full">
                             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#E34F26" className="h-7 mx-1 p-0.5 place-self-center">
