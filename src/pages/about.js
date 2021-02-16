@@ -40,7 +40,7 @@ export default function Post({data}) {
               <div className="relative inline-block leading-none">
                 <div className="grid place-items-center">
                   <div className="rounded-full relative z-10">
-                    <img aria-hidden="true" className="rounded-full mx-auto my-5 xs:w-1/2 lg:w-full place-self-center" src={img} alt="Giorgio Coccapani"></img>
+                    <img aria-hidden="true" className="rounded-full mx-auto my-5 xs:w-1/2 lg:w-full place-self-center" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479494/gc_sito/me_diqya9.jpg" alt="Giorgio Coccapani"></img>
                   </div>
                 </div>
                 <div className="flex my-3 gap-3 w-full justify-between">

@@ -25,7 +25,7 @@ export default function Projects({data}) {
                 <div className="flex flex-row">
                   <a href="https://github.com/GiorCocc/programmi-liceo" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                     <div>
-                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={cppproject}></img>
+                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479493/gc_sito/CPP-projects_p1rznc.png"></img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Programmi C/C++ Liceo</p>
                         <div className="flex flex-row place-self-end border rounded-full">
@@ -40,7 +40,7 @@ export default function Projects({data}) {
                   </a>
                   <a href="https://github.com/GiorCocc/cpp-project-unipr" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                     <div>
-                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={cppproject}></img>
+                      <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479493/gc_sito/CPP-projects_p1rznc.png"></img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Programmi Università C++</p>
                         <div className="flex flex-row place-self-end border rounded-full">
@@ -56,7 +56,7 @@ export default function Projects({data}) {
                 </div>
                 <div>
                   <a href="https://github.com/GiorCocc/gioco-esame" target="_blank" rel="noreferrer" className="w-full p-1 md:p-2">
-                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={bigboi}></img>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479492/gc_sito/bigboi_jhe7ye.png"></img>
                     <div className="flex flex-col justify-between">
                       <p className="place-self-start align-center">Big Boi Running</p>
                       <div className="flex flex-row place-self-end border rounded-full">
@@ -99,7 +99,7 @@ export default function Projects({data}) {
               <div className="flex flex-row">
                 <a href="https://github.com/GiorCocc/python_project-unipr" target="_blank" rel="noreferrer" className="w-1/2 p-1 md:p-2">
                   <div>
-                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src={pyproject}></img>
+                    <img alt="gallery" class="block object-cover object-center w-full h-full rounded-lg" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479493/gc_sito/Python-projects_ne8ksh.png"></img>
                     <div className="flex flex-col justify-between">
                       <p className="place-self-start align-center">Programmi Università python</p>
                       <div className="flex flex-row place-self-end border rounded-full">
@@ -143,7 +143,7 @@ export default function Projects({data}) {
                 <div className="flex flex-row">
                   <div className="w-1/2 p-1 md:p-2">
                     <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer">
-                      <img alt="gallery" class="block object-cover object-center rounded-lg" src={siteproject}></img>
+                      <img alt="gallery" class="block object-cover object-center rounded-lg" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613480707/gc_sito/Logo-iniziali-e-nome1_phhnjt.png"></img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">giorgiococcapani.gtsb.io</p>
                         <div className="flex flex-row gap-3">
