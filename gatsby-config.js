@@ -14,6 +14,15 @@ module.exports = {
   /* Your site config here */
   plugins: [
     'gatsby-plugin-react-svg',
+    `gatsby-transformer-sharp`, 
+    `gatsby-plugin-sharp`,
+    { 
+      resolve: `gatsby-source-filesystem`, 
+      options: { 
+        name:`images`,
+        path: `${__dirname}/src/images`,
+      } 
+    },
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -47,12 +56,6 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        path: `${__dirname}/src/img`,
-      },
-    },
-    {
       resolve: `gatsby-transformer-remark`,
       options: {
         plugins: [
@@ -74,9 +77,6 @@ module.exports = {
     },
     `gatsby-plugin-remove-serviceworker`,
     `gatsby-plugin-react-helmet`,
-    `gatsby-image`,
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
     'gatsby-plugin-postcss'
   ],
 }

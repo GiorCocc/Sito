@@ -1,14 +1,24 @@
-import { Link, useStaticQuery } from "gatsby"
+import { Link, useStaticQuery, graphql } from "gatsby"
 import React from "react"
-import img from "../img/me.jpg"
 import Social from "./social1"
+import Img from "gatsby-image"
 
 export default function Hero(){
-
+    const data = useStaticQuery(graphql`
+    {
+      file(relativePath: {eq: "me.jpg"}) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
     return(
         <div class="relative bg-white overflow-hidden">
             <div class="lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
-                <img class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479494/gc_sito/me_diqya9.jpg" alt="Giorgio Coccapani"></img>
+                <Img fluid={data.file.childImageSharp.fluid} class="h-56 w-full object-cover sm:h-72 md:h-96 lg:w-full lg:h-full" alt="Giorgio Coccapani"></Img>
             </div>
         <div class="max-w-7xl mx-auto">
             <div class="relative z-10 pb-8 bg-white sm:pb-16 md:pb-20 lg:max-w-2xl lg:w-full lg:pb-28 xl:pb-32">
@@ -47,3 +57,4 @@ export default function Hero(){
         </div>
     )
 }
+

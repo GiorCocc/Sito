@@ -1,8 +1,7 @@
 import React from "react"
 import Header from "../components/header"
 import Footer from "../components/footer"
-import {graphql, Link} from "gatsby"
-import img from "../img/me.jpg"
+import {graphql, useStaticQuery, Link} from "gatsby"
 import Skills from "../components/skill"
 import SkillImg from "../img/undraw_developer_activity_bv83.svg"
 import Tools from "../components/tools"
@@ -10,20 +9,21 @@ import Form from "../components/form"
 import ContactImg from "../img/undraw_contact_us_15o2.svg"
 import SEO from "../components/seo"
 import Timeline from "../components/timeline"
+import Img from "gatsby-image"
 
 
-
-export const query = graphql`
-  query {
-    site {
-      siteMetadata {
-        title
+export default function Post() {
+  const data = useStaticQuery(graphql`
+    {
+      file(relativePath: {eq: "me.jpg"}) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
       }
     }
-  }
-`
-
-export default function Post({data}) {
+  `)
   return (
     <div>
       <SEO title="About"></SEO>
@@ -39,8 +39,9 @@ export default function Post({data}) {
               <h1 className="text-4xl tracking-tight font-bold text-black sm:text-5xl xs:text-center md:text-6xl">Giorgio Coccapani</h1>
               <div className="relative inline-block leading-none">
                 <div className="grid place-items-center">
-                  <div className="rounded-full relative z-10">
-                    <img aria-hidden="true" className="rounded-full mx-auto my-5 xs:w-1/2 lg:w-full place-self-center" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479494/gc_sito/me_diqya9.jpg" alt="Giorgio Coccapani"></img>
+                  <div className="rounded-full relative z-10 mx-auto my-5 xs:w-1/2 lg:w-full place-self-center">
+                    <Img className="rounded-full" fluid={data.file.childImageSharp.fluid} alt="Giorgio Coccapani"></Img>
+                    {/* <img aria-hidden="true" className="rounded-full mx-auto my-5 xs:w-1/2 lg:w-full place-self-center" src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613479494/gc_sito/me_diqya9.jpg" alt="Giorgio Coccapani"></img> */}
                   </div>
                 </div>
                 <div className="flex my-3 gap-3 w-full justify-between">

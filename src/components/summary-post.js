@@ -1,8 +1,19 @@
 import React from "react"
-import {Link} from "gatsby"
-import img1 from "../img/Logo-iniziali-e-nome.png"
+import {Link, useStaticQuery, graphql} from "gatsby"
+import Img from"gatsby-image"
 
 function SummaryPost() {
+    const data = useStaticQuery(graphql`
+    {
+      file(relativePath: {eq: "Logo-iniziali-e-nome1.png"}) {
+        childImageSharp {
+          fluid {
+            ...GatsbyImageSharpFluid
+          }
+        }
+      }
+    }
+  `)
     return (
         <div className="container mx-auto pt-16">
             <div className="mb-10">
@@ -14,7 +25,9 @@ function SummaryPost() {
             <div className="lg:flex md:flex xl:justify-around sm:flex flex-wrap md:justify-around sm:justify-around lg:justify-around">
                 <div className="xl:w-1/3 sm:w-5/12 sm:max-w-xs relative mb-32 lg:mb-20 xl:max-w-sm lg:w-1/2 w-11/12 mx-auto sm:mx-0">
                     <div className="shadow h-64 rounded z-10 bg-giallo_chiaro1">
-                        <img src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613480707/gc_sito/Logo-iniziali-e-nome1_phhnjt.png" alt="" className=" object-cover overflow-hidden rounded" />
+                        {/* <img src="https://res.cloudinary.com/giorgio-coccapani/image/upload/v1613480707/gc_sito/Logo-iniziali-e-nome1_phhnjt.png" alt="" className=" object-cover overflow-hidden rounded" /> */}
+                        <Img fluid={data.file.childImageSharp.fluid} alt="" className=" object-cover overflow-hidden rounded" />
+
                     </div>
                     <div className="p-6 shadow-lg w-11/12 mx-auto -mt-20 bg-white rounded z-20 relative">
                         <Link to="/perche-sito-web/">
