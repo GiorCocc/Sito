@@ -11,6 +11,7 @@ import SEO from "../components/seo"
 import Timeline from "../components/timeline"
 import Img from "gatsby-image"
 import Corsi from "../components/corsi"
+import Social from "../components/social1"
 
 
 export default function Post() {
@@ -92,7 +93,9 @@ export default function Post() {
                     </div>
                   </div>
                 </a>
-                
+                <div className="flex overflow-x-auto justify-items-center pt-10">
+                  <Social></Social>
+                </div>
               </div>
             </div>
           </div>

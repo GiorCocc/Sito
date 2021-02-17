@@ -8,7 +8,7 @@ export default function Info(){
                         Per qualunque informazione potete scrivermi compilando il form in basso. Se volete, seguitemi anche su tutti i miei canali social per eventuali aggiornamenti e per conoscermi ancora meglio.<br></br>
                         Tutti i dati verranno gestiti nel pieno rispetto della privacy e della discrezione
                     </p>  
-                    <div className="mt-12 lg:mt-24">
+                    <div className="mt-12 mx-8 lg:mt-24">
                         {/* Inserire qualche scritta */}
                         <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3 gap-8">
                             <div className="bg-white shadow-lg py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">
