@@ -50,6 +50,9 @@ export default function Post() {
               <p className="break-normal md:text-xl text-xl text-gray-700 text-justify w-full ml-2">Disponibile</p>  
             </div>
             <h1 className="text-xl lg:text-2xl text-gray-700 text-center font-semibold py-5">Contatti</h1>
+            <div className="flex bg-transparent overflow-x-auto justify-center pb-10">
+              <Social></Social>
+            </div>
             <div className="grid xs:grid-cols-1 sm:grid-cols-2 sm:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-6 ">
               <div className="bg-white mb-6 lg:mb-0 xl:mb-6 shadow-lg py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">
                 <svg xmlns="http://www.w3.org/2000/svg" width={52} height={52} viewBox="0 0 52 52" fill="none">
@@ -82,9 +85,6 @@ export default function Post() {
                 </div>
               </div>
             </a>
-            <div className="flex overflow-x-auto justify-center pt-10">
-                  <Social></Social>
-                </div>
           </div>
           {/* 
                 <a href="mailto: giorcocc@gmail.com">
