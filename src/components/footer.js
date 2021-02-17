@@ -117,10 +117,10 @@ export default function Footer(){
                     </div>
                     <div className="flex flex-wrap items-center justify-center mx-auto text-base text-center p-5">
                         <a href="/contact/" >
-                            <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-giallo p-5 rounded-md">Contatti</div>
+                            <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700 hover:bg-giallo px-5 py-2 rounded-md">Contatti</div>
                         </a>
                         <a href="/about/">
-                            <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-giallo p-5 rounded-md">About</div>
+                            <div class="justify-center m-5 text-md text-center text-gray-100 hover:text-gray-800 bg-gray-700  hover:bg-giallo px-5 py-2 rounded-md">About</div>
                         </a>
                         
                     </div>

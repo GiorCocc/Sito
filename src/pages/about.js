@@ -10,6 +10,7 @@ import ContactImg from "../img/undraw_contact_us_15o2.svg"
 import SEO from "../components/seo"
 import Timeline from "../components/timeline"
 import Img from "gatsby-image"
+import Corsi from "../components/corsi"
 
 
 export default function Post() {
@@ -35,7 +36,7 @@ export default function Post() {
           <div className="flex flex-col h-full justify-between m-4">
             <div>
               <h2 className="text-front text-3xl font-thin leading-none mb-4 xs:text-center">Studente</h2>
-              <p className="text-front text-md font-thin leading-none mb-4 xs:text-center">Ingegneria informatica, elettronica e delle telecomunicazioni</p>
+              <p className="text-front text-xl font-thin leading-none mb-4 xs:text-center">Ingegneria informatica, elettronica e delle telecomunicazioni</p>
               <h1 className="text-4xl tracking-tight font-bold text-black sm:text-5xl xs:text-center md:text-6xl">Giorgio Coccapani</h1>
               <div className="relative inline-block leading-none">
                 <div className="grid place-items-center">
@@ -46,12 +47,12 @@ export default function Post() {
                 </div>
                 <div className="flex my-3 gap-3 w-full justify-between">
                   {/* Inserire le voci sulla posizione, sulla condizione e una per scaricare il file con il curriculum */}
-                  <p className="break-words w-full">Focus on:</p>
-                  <p className="break-words text-justify w-full">Javascript e web developement</p>  
+                  <p className="break-words text-xl w-full border-r-2 border-gray-700 text-gray-700">Focus on:</p>
+                  <p className="break-words text-xl text-gray-700 text-justify w-full">Javascript e web developement</p>  
                 </div>
                 <div className="flex my-3 gap-3 w-full justify-between">
-                  <p className="break-words w-full">Condizione:</p>
-                  <p className="break-words w-full">Disponibile</p>  
+                  <p className="break-words text-xl w-full border-r-2 border-gray-700 text-gray-700">Condizione:</p>
+                  <p className="break-words text-xl text-gray-700 text-justify w-full">Disponibile</p>  
                 </div>
                 {/* <div className="bg-linkedin rounded-xl p-3">
                   <div className="flex flex-row justify-around">
@@ -135,6 +136,17 @@ export default function Post() {
             <Skills></Skills>
           </div>
           <Tools></Tools>
+          <Corsi></Corsi>
+          <div className="flex flex-row justify-end mb-3">
+            <Link to="/projects/">
+              <div className="flex flex-row gap-4 align-middle">
+                <p className="text-xl text-giallo font-bold align-middle ">Guarda i progetti</p>
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="#FFC85B">
+                  <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z"/>
+                </svg>
+              </div>
+            </Link>
+          </div>
         </div>
         <div className="place-items-auto rounded-3xl">
           <h1 className="xl:text-5xl pt-10 text-3xl text-gray-800 text-center font-bold mb-4">Contatti</h1>

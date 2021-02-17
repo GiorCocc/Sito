@@ -1,3 +1,4 @@
+import { Link } from "gatsby"
 import React from "react"
 
 export default function Timeline(){
@@ -5,7 +6,7 @@ export default function Timeline(){
         <div class="container">
           <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-gray-50">
             {/* <!-- left --> */}
-            <div class="flex flex-row-reverse md:contents">
+            <a href="https://www.liceoaselli.edu.it/" target="_blank" rel="noreferrer" class="flex flex-row-reverse md:contents">
               <div class="bg-giallo col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md text-gray-600">
                 <h3 class="font-semibold text-lg mb-1">2015</h3>
                 <p class="leading-tight text-justify">
@@ -20,7 +21,7 @@ export default function Timeline(){
                   class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-giallo shadow"
                 ></div>
               </div>
-            </div>
+            </a>
             {/* <!-- right --> */}
             <div class="flex md:contents">
               <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
@@ -56,7 +57,7 @@ export default function Timeline(){
               </div>
             </div>
             {/* <!-- right --> */}
-            <div class="flex md:contents">
+            <a href="https://www.unipr.it/" target="_blank" rel="noreferrer" class="flex md:contents">
               <div class="col-start-5 col-end-6 mr-10 md:mx-auto relative">
                 <div class="h-full w-6 flex items-center justify-center">
                   <div class="h-full w-1 bg-gray-600 pointer-events-none"></div>
@@ -71,9 +72,9 @@ export default function Timeline(){
                   Inizio carriera universitaria a Parma
                 </p>
               </div>
-            </div>
+            </a>
             {/* <!-- left --> */}
-            <div class="flex flex-row-reverse md:contents">
+            <Link to="/" class="flex flex-row-reverse md:contents">
               <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
                 <h3 class="font-semibold text-lg mb-1">26-02-2021</h3>
                 <p class="leading-tight text-justify">
@@ -88,7 +89,7 @@ export default function Timeline(){
                   class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
                 ></div>
               </div>
-            </div>
+            </Link>
 
             
             

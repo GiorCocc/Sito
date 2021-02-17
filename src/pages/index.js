@@ -40,7 +40,7 @@ export default function Home({data}) {
           </Link>
         </div>
       </div>
-      <div className="place-items-auto bg-giallo rounded-3xl">
+      <div className="place-items-auto bg-giallo_chiaro1 rounded-3xl">
         <h1 className="xl:text-5xl pt-10 text-3xl text-gray-800 text-center font-bold mb-4">Contatti</h1>
         <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">
           Se vuoi lasciare un messaggio, anche anonimo, compila questo form in modo che tu possa essere contattato da me in qualunque momento (tutti i campi, ad eccezione del messaggio sono facoltativi)

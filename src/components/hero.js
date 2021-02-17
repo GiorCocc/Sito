@@ -40,7 +40,7 @@ export default function Hero(){
                     <div class="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                         <div class="rounded-md shadow">
                             <Link to="/about/" >
-                                <div class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-giallo md:py-4 md:text-lg md:px-10">
+                                <div class="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-gray-700 hover:bg-giallo hover:text-gray-700 md:py-4 md:text-lg md:px-10">
                                     Contattami
                                 </div>
                             </Link>
