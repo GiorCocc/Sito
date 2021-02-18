@@ -15,7 +15,7 @@ const Projects=(props)=>(
           <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg sm:mx-auto md:mt-5 md:text-xl lg:mx-20"> Qui trovate una raccolta dei progetti che ho realizzato che sono reperibili su <a href="https://github.com/GiorCocc" target="_blank" rel="noreferrer" className="text-giallo">GitHub</a> per un approfondimento e per contribuire, aggiornare e recuperare tutti i miei lavori</p>  
       </div>
       <section class="text-gray-700 body-font px-4 md:px-8">
-        <div class="container justify-center lg:pt-24 lg:px-32 mx-auto">
+        <div class="container justify-center lg:pt-24 lg:px-32">
           <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 mx-auto gap-3">
             <div>
               <div className="flex flex-col gap-3">
