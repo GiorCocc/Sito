@@ -142,7 +142,7 @@ const Projects=(props)=>(
               <div className="flex flex-col gap-3">
                 <div className="flex flex-row gap-3 py-2">
                   <div className="w-1/2">
-                    <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer" className="m-1">
+                    <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer" className="">
                       <Img className="object-cover object-center w-11/12 mx-auto xs:w-full rounded-lg" fluid={props.data.logo.childImageSharp.fluid} alt="Logo del sito"></Img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Portfolio personale</p>
