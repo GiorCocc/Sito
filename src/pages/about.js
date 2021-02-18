@@ -42,15 +42,15 @@ export default function Post() {
               <Img className="rounded-full" fluid={data.file.childImageSharp.fluid} alt="Giorgio Coccapani"></Img>
             </div>
             <div className="grid grid-cols-2 my-3 w-full justify-center">
-              <p className="break-normal  md:text-xl w-full border-r-2 border-gray-700 text-gray-700">Focus on:</p>
+              <p className="break-normal md:text-xl w-full border-r-2 border-gray-700 text-gray-700">Focus on:</p>
               <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Javascript e web developement</p>  
             </div>
             <div className="grid grid-cols-2 my-3 w-full justify-between">
-              <p className="break-normal md:text-xl text-xl w-full border-r-2 border-gray-700 text-gray-700">Condizione:</p>
-              <p className="break-normal md:text-xl text-xl text-gray-700 text-justify w-full ml-2">Disponibile</p>  
+              <p className="break-normal md:text-xl w-full border-r-2 border-gray-700 text-gray-700">Condizione:</p>
+              <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Disponibile</p>  
             </div>
             <h1 className="text-xl lg:text-2xl text-gray-700 text-center font-semibold py-5">Contatti</h1>
-            <div className="flex overflow-x-auto place-self-start md:justify-center lg:justify-start pb-10">
+            <div className="flex overflow-x-auto justify-center pb-10">
               <Social></Social>
             </div>
             <div className="grid xs:grid-cols-1 sm:grid-cols-2 sm:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-6 ">
