@@ -141,9 +141,9 @@ const Projects=(props)=>(
             <div>
               <div className="flex flex-col gap-3">
                 <div className="flex flex-row gap-3 py-2">
-                  <div className="w-1/2">
+                  <div className="w-1/2 m-1">
                     <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer" className="">
-                      <Img className="object-cover object-center w-11/12 mx-auto xs:w-full rounded-lg" fluid={props.data.logo.childImageSharp.fluid} alt="Logo del sito"></Img>
+                      <Img className="object-cover object-center w-full mx-auto xs:w-11/12 rounded-lg" fluid={props.data.logo.childImageSharp.fluid} alt="Logo del sito"></Img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Portfolio personale</p>
                         <div className="flex flex-row gap-3 overflow-x-auto">
@@ -173,7 +173,7 @@ const Projects=(props)=>(
                       </div>
                     </a>
                   </div>
-                  <a href="https://github.com/GiorCocc/password-generator" rel="noreferrer" target="_blank" className="w-1/2 m-1">
+                  <a href="https://github.com/GiorCocc/password-generator" rel="noreferrer" target="_blank" className="w-1/2 m-0.5">
                     <div>
                       <Img alt="Programma per la generazione di password casuali" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.password.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
