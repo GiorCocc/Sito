@@ -20,7 +20,7 @@ const Projects=(props)=>(
             <div>
               <div className="flex flex-col gap-3">
                 <div className="flex flex-row gap-3 py-2">
-                  <a href="https://github.com/GiorCocc/programmi-liceo" target="_blank" rel="noreferrer" className="w-1/2">
+                  <a href="https://github.com/GiorCocc/programmi-liceo" target="_blank" rel="noreferrer" className="w-1/2 m-1">
                     <div>
                       <Img alt="Programmi C/C++ liceo" className="block object-cover object-center rounded-lg" fluid={props.data.cpp.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
@@ -35,7 +35,7 @@ const Projects=(props)=>(
                       </div>
                     </div>
                   </a>
-                  <a href="https://github.com/GiorCocc/cpp-project-unipr" target="_blank" rel="noreferrer" className="w-1/2">
+                  <a href="https://github.com/GiorCocc/cpp-project-unipr" target="_blank" rel="noreferrer" className="w-1/2 m-1">
                     <div>
                       <Img alt="Programmi C++ università" className="block object-cover object-center rounded-lg" fluid={props.data.cpp.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
@@ -52,7 +52,7 @@ const Projects=(props)=>(
                   </a>
                 </div>
                 <div className="py-2">
-                  <a href="https://github.com/GiorCocc/gioco-esame" target="_blank" rel="noreferrer" className="w-full">
+                  <a href="https://github.com/GiorCocc/gioco-esame" target="_blank" rel="noreferrer" className="w-full m-1">
                     <Img alt="Videogioco C# stile super Mario" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.bigboi.childImageSharp.fluid}></Img>
                     <div className="flex flex-col justify-between">
                       <p className="place-self-start align-center">Big Boi Running</p>
@@ -94,7 +94,7 @@ const Projects=(props)=>(
                 </div>
               </div>
               <div className="flex flex-row gap-3 py-2">
-                <a href="https://github.com/GiorCocc/python_project-unipr" target="_blank" rel="noreferrer" className="w-1/2">
+                <a href="https://github.com/GiorCocc/python_project-unipr" target="_blank" rel="noreferrer" className="w-1/2 m-1">
                   <div>
                     <Img alt="Progetti Python Università" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.python.childImageSharp.fluid}></Img>
                     <div className="flex flex-col justify-between">
@@ -109,7 +109,7 @@ const Projects=(props)=>(
                     </div>
                   </div>
                 </a>
-                <a href="https://github.com/GiorCocc/arduino" target="_blank" rel="noreferrer" className="w-1/2">
+                <a href="https://github.com/GiorCocc/arduino" target="_blank" rel="noreferrer" className="w-1/2 m-1">
                   <div>
                     <Img alt="Progetti Arduino Università" className="block object-cover object-center w-11/12 mx-auto xs:w-full rounded-lg" fluid={props.data.arduino.childImageSharp.fluid}></Img>
                     <div className="flex flex-col justify-between">
@@ -142,7 +142,7 @@ const Projects=(props)=>(
               <div className="flex flex-col gap-3">
                 <div className="flex flex-row gap-3 py-2">
                   <div className="w-1/2">
-                    <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer" className="">
+                    <a href="https://github.com/GiorCocc/Sito" target="_blank" rel="noreferrer" className="m-1">
                       <Img className="object-cover object-center w-11/12 mx-auto xs:w-full rounded-lg" fluid={props.data.logo.childImageSharp.fluid} alt="Logo del sito"></Img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">Portfolio personale</p>
@@ -173,7 +173,7 @@ const Projects=(props)=>(
                       </div>
                     </a>
                   </div>
-                  <a href="https://github.com/GiorCocc/password-generator" rel="noreferrer" target="_blank" className="w-1/2">
+                  <a href="https://github.com/GiorCocc/password-generator" rel="noreferrer" target="_blank" className="w-1/2 m-1">
                     <div>
                       <Img alt="Programma per la generazione di password casuali" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.password.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
@@ -203,7 +203,7 @@ const Projects=(props)=>(
             <div>
               <div className="flex flex-col gap-3">
                 <div className="flex flex-row gap-3 py-2">
-                  <a href="https://github.com/GiorCocc/bubble-bobble" target="_blank" rel="noreferrer" className="w-1/2">
+                  <a href="https://github.com/GiorCocc/bubble-bobble" target="_blank" rel="noreferrer" className="w-1/2 m-1">
                     <div>
                       <Img alt="Bubble Bobble" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.bb.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
@@ -218,7 +218,7 @@ const Projects=(props)=>(
                       </div>
                     </div>
                   </a>
-                  <a href="https://github.com/GiorCocc/3-in-a-row" target="_blank" rel="noreferrer" className="w-1/2">
+                  <a href="https://github.com/GiorCocc/3-in-a-row" target="_blank" rel="noreferrer" className="w-1/2 m-1">
                     <div>
                       <Img alt="3-in-a-row" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.inarow.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
