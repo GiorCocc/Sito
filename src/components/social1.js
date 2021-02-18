@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Social(){
     return(
-        <div className="flex flex-auto gap-3">
+        <div className="flex flex-auto max-w-sm gap-3">
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/giorgio-coccapani-4b7834186/">
                 <div className="rounded-full p-4 bg-white shadow-sm hover:bg-linkedin place-items-center">
                     <svg className="mx-auto" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width={30} height={30} fill="currentcolor">

@@ -50,7 +50,7 @@ export default function Post() {
               <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Disponibile</p>  
             </div>
             <h1 className="text-xl lg:text-2xl text-gray-700 text-center font-semibold py-5">Contatti</h1>
-            <div className="flex overflow-x-auto justify-center pb-10">
+            <div className="flex overflow-x-auto w-full md:justify-center lg:justify-start pb-10">
               <Social></Social>
             </div>
             <div className="grid xs:grid-cols-1 sm:grid-cols-2 sm:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-6 ">
