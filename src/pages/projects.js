@@ -220,7 +220,7 @@ const Projects=(props)=>(
                   </a>
                   <a href="https://github.com/GiorCocc/3-in-a-row" target="_blank" rel="noreferrer" className="w-1/2">
                     <div>
-                      <Img alt="3-in-a-row" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.inarow.childImageSharp.fluid}></Img>
+                      <Img alt="3-in-a-row" className="block object-cover object-center w-full h-full rounded-lg" fluid={props.data.python.childImageSharp.fluid}></Img>
                       <div className="flex flex-col justify-between">
                         <p className="place-self-start align-center">3 in a Row</p>
                         <div className="flex flex-row place-self-end border rounded-full">
