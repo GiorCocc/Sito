@@ -15,7 +15,7 @@ function SummaryPost() {
     }
   `)
     return (
-        <div className="container mx-auto pt-16">
+        <div className="container mx-auto pt-16 px-4 md:px-8">
             <div className="mb-10">
                 <h1 className="xl:text-5xl pt-4 xl:pt-0 text-3xl text-gray-800 text-center font-bold mb-4">Ultimi post pubblicati</h1>
                 <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">

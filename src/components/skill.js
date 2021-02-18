@@ -2,7 +2,7 @@ import React from "react"
 
 export default function Skills(){
     return(
-        <div className="p-5 grid gap-4 sm:grid-cols-1 md:grid-cols-2">
+        <div className=" grid gap-8 sm:grid-cols-1 md:grid-cols-2">
             <div className="pb-5">
                 <div className="flex flex-row">
                     <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" fill="#E34F26" className="w-9 h-9">

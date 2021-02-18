@@ -19,17 +19,17 @@ export default function Home({data}) {
       <Hero></Hero>
       <SummaryPost></SummaryPost> {/* Sistemare i testi */}
       {/* Creare un blocco per i progetti svolti (coming soon..) */}
-      <div className=" bg-gray-700 rounded-2xl p-8 mb-8">
+      <div className=" bg-gray-700 rounded-2xl p-4 md:p-8 mb-8 mx-auto">
         <h1 className="xl:text-5xl pt-10 text-3xl text-gray-200 text-center font-bold mb-4">Skills e Strumenti</h1>
         <p className="text-xl text-gray-200 text-center xl:w-3/5 mx-auto w-11/12">
           Tutti i linguaggi di programmazione e di marcatura che conosco e che sono in grado di gestire. Al momento sto imparando javascript, lo sviluppo di siti web e mobile
         </p>
-        <div className="grid sm:grid-cols-1 lg:grid-cols-2 pt-2">
+        <div className="grid sm:grid-cols-1 lg:grid-cols-2">
           <SkillImg className="w-full h-auto p-8"></SkillImg>
           <Skills></Skills>
         </div>
         <Tools></Tools>
-        <div className="flex flex-row justify-end mb-3">
+        <div className="flex flex-row justify-end my-3">
           <Link to="/projects/">
             <div className="flex flex-row gap-4 align-middle">
               <p className="text-xl text-giallo font-bold align-middle ">Guarda i progetti</p>
@@ -40,13 +40,13 @@ export default function Home({data}) {
           </Link>
         </div>
       </div>
-      <div className="place-items-auto bg-giallo_chiaro1 rounded-3xl">
+      <div className="place-items-auto bg-giallo_chiaro1 rounded-3xl p-4 md:p-8">
         <h1 className="xl:text-5xl pt-10 text-3xl text-gray-800 text-center font-bold mb-4">Contatti</h1>
         <p className="text-xl text-gray-600 text-center xl:w-3/5 mx-auto w-11/12">
           Se vuoi lasciare un messaggio, anche anonimo, compila questo form in modo che tu possa essere contattato da me in qualunque momento (tutti i campi, ad eccezione del messaggio sono facoltativi)
         </p>
         {/* <Social></Social> */}
-        <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:pl-2 xl:pl-6 p-5 ">
+        <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2">
           <div>
             <Form></Form>
           </div>

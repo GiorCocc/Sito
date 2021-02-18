@@ -7,7 +7,7 @@ export default function Timeline(){
           <div class="flex flex-col md:grid grid-cols-9 mx-auto p-2 text-gray-50">
             {/* <!-- left --> */}
             <a href="https://www.liceoaselli.edu.it/" target="_blank" rel="noreferrer" class="flex flex-row-reverse md:contents">
-              <div class="bg-giallo col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md text-gray-600">
+              <div class="bg-giallo col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md text-gray-600">
                 <h3 class="font-semibold text-lg mb-1">2015</h3>
                 <p class="leading-tight text-justify">
                   Inizio Liceo scientifico
@@ -32,7 +32,7 @@ export default function Timeline(){
                   class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-gray-600 shadow"
                 ></div>
               </div>
-              <div class="bg-gray-600 col-start-6 col-end-10 p-4 rounded-xl xs:my-4 md:my-0 mr-auto shadow-md">
+              <div class="bg-gray-600 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
                 <h3 class="font-semibold text-lg mb-1">2016-2019</h3>
                 <p class="leading-tight text-justify">
                   Studio scolastico della programmazione in C/C++ e HTML
@@ -41,7 +41,7 @@ export default function Timeline(){
             </div>
             {/* <!-- left --> */}
             <div class="flex flex-row-reverse md:contents">
-              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
+              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
                 <h3 class="font-semibold text-lg mb-1">2020</h3>
                 <p class="leading-tight text-justify">
                   Realizzazione del videogioco in Unity e C#
@@ -66,7 +66,7 @@ export default function Timeline(){
                   class="w-6 h-6 absolute top-1/2 -mt-3 rounded-full bg-giallo shadow"
                 ></div>
               </div>
-              <div class="bg-giallo text-gray-700 col-start-6 col-end-10 p-4 rounded-xl xs:my-4 md:my-0 mr-auto shadow-md">
+              <div class="bg-giallo text-gray-700 col-start-6 col-end-10 p-4 rounded-xl my-4 mr-auto shadow-md">
                 <h3 class="font-semibold text-lg mb-1">2020</h3>
                 <p class="leading-tight text-justify">
                   Inizio carriera universitaria a Parma
@@ -75,7 +75,7 @@ export default function Timeline(){
             </a>
             {/* <!-- left --> */}
             <Link to="/" class="flex flex-row-reverse md:contents">
-              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl xs:my-4 md:my-0 ml-auto shadow-md">
+              <div class="bg-gray-600 col-start-1 col-end-5 p-4 rounded-xl my-4 ml-auto shadow-md">
                 <h3 class="font-semibold text-lg mb-1">26-02-2021</h3>
                 <p class="leading-tight text-justify">
                   Pubblicazione del sito

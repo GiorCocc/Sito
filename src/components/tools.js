@@ -3,7 +3,7 @@ import React from "react"
 export default function Tools(){
     return(
         <div>
-            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8 p-3">
+            <div className="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
                 <div className="bg-white rounded-xl shadow-sm">
                     <h1 className="text-center text-xl font-semibold m-5">IDE</h1>
                     <div className="grid grid-cols-2 gap-3">

@@ -32,7 +32,7 @@ export default function Post() {
       <Header></Header>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container xl:px-0">
         <h1 className="text-center text-3xl lg:text-5xl font-semibold tracking-wider text-gray-900">Info e contatti</h1>
-        <div className="md:max-w-screen mx-4 flex flex-wrap pt-4 my-8">
+        <div className="md:max-w-screen flex flex-wrap pt-4 my-8">
         <aside className="w-full bg-giallo_chiaro lg:w-1/3 py-9 lg:px-6 xl:px-12 rounded-xl">
           <div className="px-3">
             <h2 className="text-front text-3xl font-thin leading-none mb-4 mx-3 text-center">Studente</h2>
@@ -50,7 +50,7 @@ export default function Post() {
               <p className="break-normal md:text-xl text-xl text-gray-700 text-justify w-full ml-2">Disponibile</p>  
             </div>
             <h1 className="text-xl lg:text-2xl text-gray-700 text-center font-semibold py-5">Contatti</h1>
-            <div className="flex bg-transparent overflow-x-auto justify-center pb-10">
+            <div className="flex overflow-x-auto place-self-start md:justify-center lg:justify-start pb-10">
               <Social></Social>
             </div>
             <div className="grid xs:grid-cols-1 sm:grid-cols-2 sm:gap-6 lg:grid-cols-1 xl:grid-cols-2 xl:gap-6 ">
@@ -86,27 +86,8 @@ export default function Post() {
               </div>
             </a>
           </div>
-          {/* 
-                <a href="mailto: giorcocc@gmail.com">
-                  <div className="bg-white shadow-lg  py-10 rounded-3xl flex flex-col items-center hover:bg-giallo hover:shadow-2xl">
-                    <svg xmlns="http://www.w3.org/2000/svg" width={64} height={51} viewBox="0 0 64 51" fill="none">
-                      <path d="M55.8571 1H7.85714C4.07004 1 1 4.08504 1 7.89062V42.3438C1 46.1493 4.07004 49.2344 7.85714 49.2344H55.8571C59.6442 49.2344 62.7142 46.1493 62.7142 42.3438V7.89062C62.7142 4.08504 59.6442 1 55.8571 1Z" stroke="#4A5568" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                      <path d="M1 7.89014L31.8571 28.562L62.7142 7.89014" stroke="#4A5568" strokeWidth={2} strokeLinecap="round" strokeLinejoin="round" />
-                    </svg>
-                    <h2 className="text-lg font-bold tracking-wide mt-4 mb-5 text-gray-700"><a href="mailto: giorcocc@gmail.com">Email</a></h2>
-                    <div className="text-gray-700 text-base tracking-wide text-center">
-                      <p>giorcocc@gmail.com</p>
-                    </div>
-                  </div>
-                </a>
-                <div className="flex overflow-x-auto justify-items-center pt-10">
-                  <Social></Social>
-                </div>
-              </div>
-            </div>
-          </div> */}
         </aside>
-        <main className="lg:w-2/3 lg:pl-8 xl:pl-12">
+        <main className="lg:w-2/3 px-3 lg:pl-8 xl:pl-12 pt-5 lg:pt-0">
           <p className="text-justify text-lg text-gray-600 mb-3">
             Ciao a tutti, mi chiamo Coccapani Giorgio, ho 20 anni e sono un aspirante sviluppatore. Studio  <strong>ingegneria informatica, elettronica e telecomunicazioni presso l’Università degli studi di Parma</strong>. Nella vita sono un grande appassionato di tecnologia, in tutti i suoi aspetti, dall’hardware a, soprattutto il <strong>software</strong>, dai videogiochi ai programmi che utilizziamo nella vita di tutti i giorni.
           </p>
@@ -141,7 +122,7 @@ export default function Post() {
             [testo]
           </p> */}
           <div className="grid sm:grid-cols-1 lg:grid-cols-2 pt-2">
-            <SkillImg className="w-full h-auto lg:p-8"></SkillImg>
+            <SkillImg className="w-full h-auto py-2 lg:p-8"></SkillImg>
             <Skills></Skills>
           </div>
           <Tools></Tools>
