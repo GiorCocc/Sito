@@ -313,7 +313,7 @@ export const data = graphql`
         }
       }
     }
-    inarow: file(relativePath: { eq: "InaRow.png" }) {
+    inarow: file(relativePath: { eq: "InaRow (2).png" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
