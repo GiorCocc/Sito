@@ -16,7 +16,7 @@ export default function Post({data}) {
           <h1 className="text-center text-3xl font-semibold lg:text-5xl tracking-wider text-gray-900">Post ~ {data.allMarkdownRemark.totalCount} articoli</h1>
           <div className="grid md:grid-cols-2">
             <div>
-              <PostImg className="w-full h-full py-3"></PostImg>
+              <PostImg className="w-full h-full p-6"></PostImg>
             </div>
             <div>
               {data.allMarkdownRemark.edges.map(({ node }) => (

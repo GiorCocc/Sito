@@ -87,7 +87,7 @@ export default function Post() {
             </a>
           </div>
         </aside>
-        <main className="lg:w-2/3 px-3 lg:pl-8 xl:pl-12 pt-5 lg:pt-0">
+        <main className="lg:w-2/3 px-3 lg:px-8 pt-5 lg:pt-0">
           <p className="text-justify text-lg text-gray-600 mb-3">
             Ciao a tutti, mi chiamo Coccapani Giorgio, ho 20 anni e sono un aspirante sviluppatore. Studio  <strong>ingegneria informatica, elettronica e telecomunicazioni presso l’Università degli studi di Parma</strong>. Nella vita sono un grande appassionato di tecnologia, in tutti i suoi aspetti, dall’hardware a, soprattutto il <strong>software</strong>, dai videogiochi ai programmi che utilizziamo nella vita di tutti i giorni.
           </p>
