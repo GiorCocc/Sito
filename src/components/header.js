@@ -4,24 +4,24 @@ import {Link} from "gatsby"
 export default function Header(){
     const [isExpanded, toggleExpansion]=useState(false)
     return(
-        <nav class="bg-transparent">
-            <div class="mx-auto px-2 sm:px-6 lg:px-8 border-b border-gray-200">
-                <div class="relative flex items-center justify-between h-16 ">
-                    <div class="absolute inset-y-0 left-0 flex items-center sm:hidden">
-                        <button onClick={()=> toggleExpansion(!isExpanded)} class="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-expanded="false">
-                            <span class="sr-only">Apri il menu</span>
-                            <svg class={`${isExpanded ? `hidden` : `block`} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+        <nav className="bg-transparent">
+            <div className="mx-auto px-2 sm:px-6 lg:px-8 border-b border-gray-200">
+                <div className="relative flex items-center justify-between h-16 ">
+                    <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
+                        <button onClick={()=> toggleExpansion(!isExpanded)} className="inline-flex items-center justify-center p-2 rounded-md text-gray-400 hover:text-white hover:bg-gray-700 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white" aria-expanded="false">
+                            <span className="sr-only">Apri il menu</span>
+                            <svg className={`${isExpanded ? `hidden` : `block`} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16"></path>
                             </svg>
-                            <svg class={`${isExpanded ? `block` : `hidden`} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
-                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12"></path>
+                            <svg className={`${isExpanded ? `block` : `hidden`} h-6 w-6`} xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
+                                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M6 18L18 6M6 6l12 12"></path>
                             </svg>
                         </button>
                     </div>
 
-                    <div class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
-                        <div class="flex-shrink-0 flex items-center">
-                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" class="h-10 w-auto"
+                    <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
+                        <div className="flex-shrink-0 flex items-center">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" className="h-10 w-auto"
                                 viewBox="0 0 533 469" preserveAspectRatio="xMidYMid meet">
                                 <g transform="translate(0.000000,469.000000) scale(0.100000,-0.100000)"
                                 fill="currentcolor" stroke="none">
@@ -87,44 +87,44 @@ export default function Header(){
                                 </g>
                                 </svg>
                         </div>
-                        <div class="hidden sm:block sm:ml-6">
-                            <div class="flex space-x-4">
+                        <div className="hidden sm:block sm:ml-6">
+                            <div className="flex space-x-4">
                                 <Link to="/">
-                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</div>
+                                    <div className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Home</div>
                                 </Link>
                                 <Link to="/post/" >
-                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Post</div>
+                                    <div className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Post</div>
                                 </Link>
                                 <Link to="/projects/" >
-                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Progetti</div>
+                                    <div className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Progetti</div>
                                 </Link>
                                 {/* <Link to="/contact/" >
-                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contatti</div>
+                                    <div className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Contatti</div>
                                 </Link> */}
                                 <Link to="/about/" >
-                                    <div class="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</div>
+                                    <div className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">About</div>
                                 </Link>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class={`${isExpanded ? `block` : `hidden`}`}>
-            <div class="grid sm:hidden grid-cols-2 text-center text-gray-700 border-b">
-                <div class="px-2 pt-2 pb-3 space-y-1">
+            <div className={`${isExpanded ? `block` : `hidden`}`}>
+            <div className="grid sm:hidden grid-cols-2 text-center text-gray-700 border-b">
+                <div className="px-2 pt-2 pb-3 space-y-1">
                     <Link to="/" >
-                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</div>
+                        <div className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Home</div>
                     </Link>
                     <Link to="/post/" >
-                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Post</div>
+                        <div className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Post</div>
                     </Link>
                 </div>
-                <div class="px-2 pt-2 pb-3 space-y-1">
+                <div className="px-2 pt-2 pb-3 space-y-1">
                     <Link to="/projects/" >
-                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Progetti</div>
+                        <div className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">Progetti</div>
                     </Link>
                     <Link to="/about/" >
-                        <div class="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</div>
+                        <div className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">About</div>
                     </Link>
                 </div>
             </div>

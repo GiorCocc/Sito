@@ -83,7 +83,7 @@ export default function Skills(){
                 </div>
                 <div className="bg-gray-400 rounded-md">
                     <div className="bg-latex h-10 w-7/12 rounded-md justify-items-center">
-                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Ottimo</p>                
+                        <p className="h-full w-max m-5 pt-2 text-right font-semibold">Buono</p>                
                     </div>
                 </div>
             </div>

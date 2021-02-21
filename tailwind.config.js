@@ -32,6 +32,8 @@ module.exports = {
       kotlin: '#0095D5',
       dart: '#0175C2',
       latex: '#008080',
+      telegram: '#26A5E4',
+      visualstudio: '#5C2D91',
 
       facebook:'#1877F2',
       instagram:'#E4405F',

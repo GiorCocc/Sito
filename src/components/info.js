@@ -4,7 +4,7 @@ export default function Info(){
     return(
         <div className="f-f-p pt-16 lg:pt-32 mx-auto container px-4 xl:px-0">
                     <h1 className="text-center text-3xl lg:text-5xl font-semibold tracking-wider text-gray-900">Contatti</h1>
-                    <p class="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                    <p className="mt-3 text-base text-gray-500 justify-center text-center sm:mt-5 sm:text-lg  sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                         Per qualunque informazione potete scrivermi compilando il form in basso. Se volete, seguitemi anche su tutti i miei canali social per eventuali aggiornamenti e per conoscermi ancora meglio.<br></br>
                         Tutti i dati verranno gestiti nel pieno rispetto della privacy e della discrezione
                     </p>  

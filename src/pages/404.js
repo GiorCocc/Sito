@@ -11,7 +11,7 @@ export default function Error(){
             <SEO title="Error!" description="Errore nel caricamento della pagina. Forse hai digitato male il link o qualcosa è andato storto..."></SEO>
             <div className="flex flex-col place-items-center gap-6 p-10 h-screen">
                 <NotFound className="w-3/12 h-full"></NotFound>
-                <h1 class="text-5xl font-bold text-giallo">Ops...</h1>
+                <h1 className="text-5xl font-bold text-giallo">Ops...</h1>
                 <p className="text-xl text-gray-600 text-center font-semibold xl:w-3/5 mx-auto w-11/12">
                     Pare che la pagina che hai cercato non esista...
                 </p>
