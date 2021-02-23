@@ -22,7 +22,7 @@ export default function Home({data}) {
         {/* Creare un blocco per i progetti svolti (coming soon..) */}
         <div className=" bg-gray-700 rounded-2xl p-4 md:p-8 mb-8 mx-auto">
           <h1 className="xl:text-5xl pt-10 text-3xl text-gray-200 text-center font-bold mb-4">Skills e Strumenti</h1>
-          <p className="text-xl text-gray-200 text-center xl:w-3/5 mx-auto w-11/12">
+          <p className="text-xl text-gray-200 text-center xl:w-3/5 mx-auto w-11/12 pb-5">
             Tutti i linguaggi di programmazione e di marcatura che conosco e che sono in grado di gestire. Al momento sto imparando javascript, lo sviluppo di siti web e mobile
           </p>
           <div className="grid sm:grid-cols-1 lg:grid-cols-2">
