@@ -1,2 +1,4 @@
 User-agent: *
-Disallow:
+Allow: /
+
+Sitemap: http://giorgiococcapani.gtsb.io/sitemap.xml
