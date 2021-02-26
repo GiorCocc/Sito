@@ -22,6 +22,7 @@ export default function BlogPost({ data }) {
             <p className="my-3">Tempo di lettura: {post.timeToRead} minuti</p>
         </div>
       </div>
+
       <div dangerouslySetInnerHTML={{ __html: post.html }} className="md:mx-20 m-4 md:my-10 text-justify" />
       <div className="place-items-auto bg-giallo rounded-3xl">
           <h1 className="xl:text-5xl pt-10 text-3xl text-gray-800 text-center font-bold mb-4">Contatti</h1>
