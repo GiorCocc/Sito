@@ -43,11 +43,11 @@ export default function Post() {
             </div>
             <div className="grid grid-cols-2 my-3 w-full justify-center">
               <p className="break-normal md:text-xl w-full border-r-2 border-gray-700 text-gray-700">Focus on:</p>
-              <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Javascript e web developement</p>  
+              <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Javascript e web developement e C++</p>  
             </div>
             <div className="grid grid-cols-2 my-3 w-full justify-between">
               <p className="break-normal md:text-xl w-full border-r-2 border-gray-700 text-gray-700">Condizione:</p>
-              <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Disponibile</p>  
+              <p className="break-word md:text-xl text-gray-700 text-justify w-full ml-2">Occupato (università)</p>  
             </div>
             <h1 className="text-xl lg:text-2xl text-gray-700 text-center font-semibold py-5">Contatti</h1>
             <div className="flex overflow-x-auto w-full md:justify-center lg:justify-start pb-10">
