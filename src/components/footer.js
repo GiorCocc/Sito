@@ -362,7 +362,7 @@ export default function Footer() {
         </div>
         <div className="flex flex-wrap items-center justify-center mx-auto text-base bg-blueGray-900 ">
           <p className="text-sm text-center text-gray-300 p-5">
-            © giorgio_coccapani — 2020 — Realizzato con{" "}
+            © giorgio_coccapani — 2021 — Realizzato con{" "}
             <a
               href="https://www.gatsbyjs.com/"
               target="_blank"

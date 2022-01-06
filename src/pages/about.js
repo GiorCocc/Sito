@@ -28,85 +28,92 @@ export default function Post() {
         <h1 className="text-center text-3xl lg:text-5xl font-semibold tracking-wider text-gray-900">
           Per riassumere
         </h1>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-4 py-8">
+        <div class="flex flex-wrap -mx-3 overflow-hidden">
+          <div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2">
+            <div className="">
+              <h2 className="pt-10 text-3xl text-gray-800 font-semibold mb-4">
+                Esperienze lavorative
+              </h2>
+              <div className="flex flex-col p-5 gap-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:translate-x-1 ">
+                <div className="flex flex-row">
+                  <h1 className="font-bold text-xl text-giallo">
+                    Emiliane Conserve SRL
+                  </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFC85B"
+                    className="ml-5 mt-2"
+                  >
+                    <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
+                  </svg>
+                </div>
+                <p className="text-lg font-semibold text-gray-500 text-justify">
+                  Addetto imballaggi macropack e paratia polpa pomodoro
+                </p>
+                <p className="text-md font-medium text-gray-300">
+                  Agosto 2021 - Settembre 2021
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="my-3 px-3 w-full overflow-hidden sm:w-1/2 md:w-1/2 lg:w-1/2 xl:w-1/2">
+            <div className="">
+              <h2 className="pt-10 text-3xl text-gray-800 font-semibold mb-4">
+                Istruzione
+              </h2>
+              <div className="flex flex-col p-5 gap-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:translate-x-1 ">
+                <div className="flex flex-row">
+                  <h1 className="font-bold text-xl text-giallo">
+                    Università degli Studi di Parma
+                  </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFC85B"
+                    className="ml-5 mt-2"
+                  >
+                    <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
+                  </svg>
+                </div>
+                <p className="text-lg font-semibold text-gray-500 text-justify">
+                  Lurea Triennale - Ingegneria informatica, elettronica e
+                  telecomunicazioni
+                </p>
+                <p className="text-md font-medium text-gray-300">2020</p>
+              </div>
+              <div className="flex flex-col p-5 gap-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:translate-x-1 ">
+                <div className="flex flex-row">
+                  <h1 className="font-bold text-xl text-giallo">
+                    Liceo Scientifico
+                  </h1>
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="20"
+                    height="20"
+                    viewBox="0 0 24 24"
+                    fill="#FFC85B"
+                    className="ml-5 mt-2"
+                  >
+                    <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
+                  </svg>
+                </div>
+                <p className="text-lg font-semibold text-gray-500 text-justify">
+                  Indirizzo Scienze Applicate
+                </p>
+                <p className="text-md font-medium text-gray-300">2015 - 2020</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="grid grid-cols-1 gap-4 py-8">
           {/* Inserire qui informazioni lavorative, istruzione, corsi... */}
-          <div className="">
-            <h2 className="pt-10 text-3xl text-gray-800 font-semibold mb-4">
-              Esperienze lavorative
-            </h2>
-            <div className="flex flex-col pt-5 gap-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:translate-x-1 ">
-              <div className="flex flex-row">
-                <h1 className="font-bold text-xl text-giallo">
-                  Emiliane Conserve SRL
-                </h1>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="#FFC85B"
-                  className="ml-5 mt-2"
-                >
-                  <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
-                </svg>
-              </div>
-              <p className="text-lg font-semibold text-gray-500 text-justify">
-                Sviluppo di videogiochi platform in linguaggio C# e motore
-                grafico Unity
-              </p>
-              <p className="text-md font-medium text-gray-300">
-                Agosto 2021 - Settembre 2021
-              </p>
-            </div>
-          </div>
-          <div className="">
-            <h2 className="pt-10 text-3xl text-gray-800 font-semibold mb-4">
-              Istruzione
-            </h2>
-            <div className="flex flex-col pt-5 gap-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:translate-x-1 ">
-              <div className="flex flex-row">
-                <h1 className="font-bold text-xl text-giallo">
-                  Università degli Studi di Parma
-                </h1>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="#FFC85B"
-                  className="ml-5 mt-2"
-                >
-                  <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
-                </svg>
-              </div>
-              <p className="text-lg font-semibold text-gray-500 text-justify">
-                Lurea Triennale - Ingegneria informatica, elettronica e
-                telecomunicazioni
-              </p>
-              <p className="text-md font-medium text-gray-300">2020</p>
-            </div>
-            <div className="flex flex-col pt-5 gap-3 transition duration-500 ease-in-out transform hover:-translate-y-1 hover:translate-x-1 ">
-              <div className="flex flex-row">
-                <h1 className="font-bold text-xl text-giallo">
-                  Liceo Scientifico
-                </h1>
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="20"
-                  height="20"
-                  viewBox="0 0 24 24"
-                  fill="#FFC85B"
-                  className="ml-5 mt-2"
-                >
-                  <path d="M13.025 1l-2.847 2.828 6.176 6.176h-16.354v3.992h16.354l-6.176 6.176 2.847 2.828 10.975-11z" />
-                </svg>
-              </div>
-              <p className="text-lg font-semibold text-gray-500 text-justify">
-                Indirizzo Scienze Applicate
-              </p>
-              <p className="text-md font-medium text-gray-300">2015 - 2020</p>
-            </div>
-          </div>
+
           <div className="col-span-2">
             <h2 className="pt-10 text-3xl text-gray-800 font-bold mb-4">
               Corsi
