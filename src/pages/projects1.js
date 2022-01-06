@@ -28,7 +28,7 @@ const Projects = props => (
       </p>
       <div className="grid grid-cols-1 lg:grid-cols-2 xl:grid-cols-3 px-4 md:px-8 xl:mx-auto gap-3 py-6">
         {/* Blocchi piccoli + uno grande */}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <article class="p-1 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
             <a
               href="https://github.com/GiorCocc/programmi-liceo"
@@ -77,7 +77,7 @@ const Projects = props => (
               </div>
             </a>
           </article>
-          <article class="p-1 col-span-2 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
+          <article class="p-1 md:col-span-2 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
             <a
               href="https://github.com/GiorCocc/gioco-esame"
               target="_blank"
@@ -106,8 +106,8 @@ const Projects = props => (
           </article>
         </div>
         {/* Blocco grande + due piccoli */}
-        <div className="grid grid-cols-2 gap-3">
-          <article class="p-1 col-span-2 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
+          <article class="p-1 md:col-span-2 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
             <a
               href="https://www.amazon.it/Freenove-Bilanciamento-Automatico-Tracciamento-Riconoscimento/dp/B08C254F73?ref_=ast_sto_dp"
               target="_blank"
@@ -184,7 +184,7 @@ const Projects = props => (
           </article>
         </div>
         {/* <ProjectImg className="w-3/4 mx-auto my-auto"></ProjectImg> */}
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <article class="p-1 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
             <a
               href="https://github.com/GiorCocc/password-generator"
@@ -232,7 +232,7 @@ const Projects = props => (
             </a>
           </article>
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <article class="p-1 col-span-2 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
             <a
               href="https://github.com/GiorCocc/Sito"
@@ -264,7 +264,7 @@ const Projects = props => (
             </a>
           </article>
         </div>
-        <div className="grid grid-cols-2 gap-3">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-3">
           <article class="p-1 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
             <a
               href="https://github.com/GiorCocc/3-in-a-row"
