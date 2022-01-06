@@ -12,9 +12,10 @@ import Social from "../components/social"
 export default function Contact({data}) {
   return (
     <div>
-      <SEO title="Contatti"></SEO>
+      <SEO title="Contatti" description="Informazioni Per contattare Giorgio Coccapani"></SEO>
       <Header></Header>
-      <Info></Info>
+      <div className="xl:mx-32">
+        <Info></Info>
       <div className="f-f-p pt-16 lg:pt-32 mx-auto container xl:px-0">
         <div className="grid sm:grid-cols-1 md:grid-cols-1 lg:grid-cols-2 lg:pl-2 xl:pl-6 p-5">
           <div>
@@ -26,6 +27,8 @@ export default function Contact({data}) {
         </div>
         <Social></Social>
       </div>
+      </div>
+      
       <Footer></Footer>
     </div>
   )
