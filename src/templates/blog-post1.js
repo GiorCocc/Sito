@@ -8,7 +8,7 @@ export default function BlogPost({ data }) {
   const post = data.markdownRemark
   return (
     <div>
-      <SEO title={post.frontmatter.title} description={post.excerpt} />
+      <SEO title={post.frontmatter.title} description={post.frontmatter.description} />
       <title>
         {post.frontmatter.author} ~ {post.frontmatter.title}
       </title>

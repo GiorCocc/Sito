@@ -10,7 +10,7 @@ module.exports = {
     title: `Giorgio Coccapani`,
     description: `Sito personale di Giorgio Coccapani, sviluppatore, studente di ingegneria e appassionato di tecnologia. Un portfolio dove puoi trovare tutto ciò che posso offrire come sviluppatore e qualche pensiero raccolto in modo ordinato`,
     author: `Giorgio Coccapani`,
-    siteUrl: `https://giorgiococcapani.gtsb.io/`,
+    siteUrl: `https://giorgio-coccapani.it`,
   },
   /* Your site config here */
   plugins: [
