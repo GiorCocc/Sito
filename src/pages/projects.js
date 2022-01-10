@@ -288,7 +288,31 @@ const Projects = props => (
             </a>
           </article>
           {/* Per aggiornare */}
-          <article class="p-1 animate-pulse rounded-2xl bg-gradient-to-r from-gray-500 to-gray-300">
+          <article class="p-1 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
+            <a
+              href="https://github.com/GiorCocc/FondProg"
+              target="_blank"
+              rel="noreferrer"
+              class="flex flex-col justify-end h-full p-6 bg-gray-900 sm:p-8 rounded-xl hover:bg-opacity-90"
+            >
+              <div class="mt-16">
+                <h5 class="mt-2 text-xl font-bold text-white">
+                  Fondamenti di Programmazione
+                </h5>
+                <div class="flex items-center justify-between mt-6">
+                  <p class="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-300">
+                    Study
+                  </p>
+                  <ul class="flex space-x-1">
+                    <li class="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
+                      C++
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </a>
+          </article>
+          {/* <article class="p-1 animate-pulse rounded-2xl bg-gradient-to-r from-gray-500 to-gray-300">
             <div
               // href="https://github.com/GiorCocc/cpp-project-unipr"
               // target="_blank"
@@ -306,7 +330,7 @@ const Projects = props => (
                 </div>
               </div>
             </div>
-          </article>
+          </article> */}
         </div>
       </div>
     </div>

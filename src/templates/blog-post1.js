@@ -15,7 +15,7 @@ export default function BlogPost({ data }) {
       <Header></Header>
       <article>
         <div class="max-w-screen-2xl mx-auto px-4 py-16 sm:px-6 lg:px-8">
-          <div>
+          <div className="mb-4">
             <Link
               to="/post/"
               class="inline-flex items-center px-5 py-3 font-medium text-grigio_scuro border border-grigio_scuro rounded-lg hover:bg-giallo hover:border-giallo hover:text-grigio_scuro"

@@ -30,7 +30,7 @@ function SummaryPost() {
                   </h5>
 
                   <p class="mt-2 text-sm text-gray-500">
-                    2020-02-20, di Giorgio Coccapani
+                    2020-02-26, di Giorgio Coccapani
                   </p>
                 </div>
               </Link>
@@ -38,11 +38,19 @@ function SummaryPost() {
           </div>
 
           <div class="my-2 px-2 w-full overflow-hidden sm:my-2 sm:px-2 sm:w-1/2 md:my-2 md:px-2 md:w-1/2 lg:my-2 lg:px-2 lg:w-1/3 xl:my-2 xl:px-2 xl:w-1/3">
-            <div class="p-1 bg-gradient-to-br from-gray-500 to-gray-300 rounded-2xl animate-pulse">
-              <Link class="block p-6 bg-white sm:p-8 rounded-xl" to="">
+            <div class="p-1 bg-gradient-to-br from-orange-500 to-yellow-300 rounded-2xl">
+              <Link
+                class="block p-6 bg-white sm:p-8 rounded-xl"
+                to="/aggiornamento-sito/"
+              >
                 <div class="mt-16 sm:pr-8">
-                  <div class="h-14 pt-2 w-36 text-gray-500 p-1 bg-gradient-to-br from-gray-500 to-gray-300 rounded-md animate-pulse"></div>
-                  <div class="h-4 mt-2 mb-1 text-gray-500 p-1 bg-gradient-to-br from-gray-500 to-gray-300 rounded-md animate-pulse"></div>
+                  <h5 class="text-xl font-bold text-gray-900">
+                    Primo aggiornamento del sito
+                  </h5>
+
+                  <p class="mt-2 text-sm text-gray-500">
+                    2022-01-11, di Giorgio Coccapani
+                  </p>
                 </div>
               </Link>
             </div>

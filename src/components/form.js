@@ -18,7 +18,7 @@ function Form() {
               <input
                 name="name"
                 type="text"
-                className="focus:outline-none text-gray-700 focus:border font-normal w-full h-15 flex items-center p-2 mt-4 text-lg border-solid border-2 border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300"
+                className="focus:outline-none text-gray-700 focus:border font-normal w-full h-15 flex items-center p-2 mt-4 text-lg border-solid border-2 border-white rounded-md shadow-lg pb-2 focus:ring-4 focus:ring-yellow-300"
                 placeholder="Il tuo nome"
               />
             </div>
@@ -34,7 +34,7 @@ function Form() {
               <input
                 name="email"
                 type="email"
-                className="focus:outline-none focus:border text-gray-700 font-normal w-full h-15 flex items-center p-2 mt-4 text-lg border-solid border-2 border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300"
+                className="focus:outline-none focus:border text-gray-700 font-normal w-full h-15 flex items-center p-2 mt-4 text-lg border-solid border-2 border-white rounded-md shadow-lg pb-2 focus:ring-4 focus:ring-yellow-300"
                 placeholder="esempio@email.com"
               />
             </div>
@@ -52,7 +52,7 @@ function Form() {
               <input
                 name="phone"
                 type="phone"
-                className="focus:outline-none text-gray-700 focus:border font-normal w-full h-15 flex items-center p-2 mt-4 text-lg border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300"
+                className="focus:outline-none text-gray-700 focus:border font-normal w-full h-15 flex items-center p-2 mt-4 text-lg border-white rounded-md shadow-lg pb-2 focus:ring-4 focus:ring-yellow-300"
                 placeholder="+00 123456789"
               />
             </div>
@@ -68,7 +68,7 @@ function Form() {
               <input
                 name="address"
                 type="address"
-                className="focus:outline-none focus:border text-gray-700 font-normal w-full h-15 flex items-center p-2 mt-4 text-lg  border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300"
+                className="focus:outline-none focus:border text-gray-700 font-normal w-full h-15 flex items-center p-2 mt-4 text-lg  border-white rounded-md shadow-lg pb-2 focus:ring-4 focus:ring-yellow-300"
                 placeholder="Inserisci il tuo indirizzo"
               />
             </div>
@@ -86,7 +86,7 @@ function Form() {
               <textarea
                 name="message"
                 type="message"
-                className="focus:outline-none text-gray-700 focus:border font-normal w-full h-20 flex items-center mt-4 p-2 text-lg border-white rounded-md shadow pb-2 focus:ring-4 focus:ring-yellow-300"
+                className="focus:outline-none text-gray-700 focus:border font-normal w-full h-20 flex items-center mt-4 p-2 text-lg border-white rounded-md shadow-lg pb-2 focus:ring-4 focus:ring-yellow-300"
                 placeholder="Lascia un messaggio..."
               />
             </div>
