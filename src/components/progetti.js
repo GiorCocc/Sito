@@ -151,7 +151,7 @@ const Projects = props => (
 
     <div className="flex justify-end">
       <Link
-        to="/projects1/"
+        to="/projects/"
         class="inline-flex items-center px-5 py-3 font-medium text-grigio_scuro border border-grigio_scuro rounded-lg hover:bg-giallo hover:border-giallo hover:text-grigio_scuro"
       >
         Altri progetti

@@ -149,7 +149,7 @@ export default function Header() {
                     Post
                   </div>
                 </Link>
-                <Link to="/projects1/">
+                <Link to="/projects/">
                   <div className="text-gray-700 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">
                     Progetti
                   </div>
@@ -182,7 +182,7 @@ export default function Header() {
             </Link>
           </div>
           <div className="px-2 pt-2 pb-3 space-y-1">
-            <Link to="/projects1/">
+            <Link to="/projects/">
               <div className="hover:bg-gray-700 hover:text-white block px-3 py-2 rounded-md text-base font-medium">
                 Progetti
               </div>
