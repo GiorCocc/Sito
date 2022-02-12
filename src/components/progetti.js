@@ -125,22 +125,22 @@ const Projects = props => (
       </article>
       <article class="p-1 rounded-2xl bg-gradient-to-r from-orange-500 to-yellow-300">
         <a
-          href="https://github.com/GiorCocc/cpp-project-unipr"
+          href="https://github.com/GiorCocc/RPG-GAME"
           target="_blank"
           rel="noreferrer"
           class="flex flex-col justify-end h-full p-6 bg-gray-900 sm:p-8 rounded-xl hover:bg-opacity-90"
         >
           <div class="mt-16">
             <h5 class="mt-2 text-xl font-bold text-white">
-              Programmi C/C++ Uni
+              RPG Platform
             </h5>
             <div class="flex items-center justify-between mt-6">
               <p class="text-lg font-medium text-transparent bg-clip-text bg-gradient-to-r from-orange-500 to-yellow-300">
-                Study
+                Game
               </p>
               <ul class="flex space-x-1">
                 <li class="inline-block rounded-full text-white text-xs font-medium px-3 py-1.5 bg-gray-800">
-                  C/C++
+                  Python
                 </li>
               </ul>
             </div>

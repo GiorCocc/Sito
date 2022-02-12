@@ -84,6 +84,30 @@ export default function Hero() {
                   <p className="my-auto text-xl">Donate Bitcoin</p>
                 </div>
               </a>
+              <a
+                href="https://en.cryptobadges.io/donate/0x2D6A9d1Cc94c30Ab5db29d8aF32654216f938e3d"
+                target="_blank"
+                rel="noreferrer"
+                className="mx-auto p-4 bg-white border-giallo border-2 rounded-2xl my-8 w-64"
+              >
+                <div className="flex flex-row">
+                  <svg
+                    class="flex-shrink-0 w-10 h-10 mr-3 my-auto"
+                    width="24"
+                    height="24"
+                    viewBox="0 0 24 24"
+                    stroke-width="2"
+                    stroke="currentColor"
+                    fill="none"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  >
+                    {" "}
+                    <path d="M11.944 17.97L4.58 13.62 11.943 24l7.37-10.38-7.372 4.35h.003zM12.056 0L4.69 12.223l7.365 4.354 7.365-4.35L12.056 0z"/>
+                  </svg>
+                  <p className="my-auto text-xl">Donate Ethereum</p>
+                </div>
+              </a>
             </div>
           </div>
         </div>
